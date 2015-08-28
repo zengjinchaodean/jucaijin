@@ -1,0 +1,26 @@
+body{
+	font-family: "Microsoft YaHei";
+	background-color: #f3f3f3;
+	padding-bottom: 4rem;
+}
+.safe_center_info_block{
+	float: right;
+	color: #999999;
+}
+.common_question{
+	position: relative;
+	top: 1rem;
+	height: 22.8rem;
+	font-size: 1.6rem;
+	color: #595959;
+	background-color: #fff;
+}
+.common_question .col-md-12 {
+    border-bottom: 1px solid #e6e6e6;
+    height: 3.8rem;
+    line-height: 3.8rem;
+}
+a {
+    display: block;
+    color: #595959;
+}
