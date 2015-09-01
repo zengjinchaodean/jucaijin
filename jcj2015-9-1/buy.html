@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1.0, user-scalable=0">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>买入</title>
+
+    <!-- Bootstrap -->
+    <link href="bootstrap-3.3.5-dist/css/bootstrap.css" rel="stylesheet">
+    <link href="bootstrap-3.3.5-dist/css/buy.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+  <!--my_assets_tab start-->
+  <div>
+
+    <!-- Nav tabs -->
+    <ul class="nav nav-tabs" role="tablist">
+      <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">黄金</a></li>
+      <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">白银</a></li>
+    </ul>
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+      <!--黄金-->
+      <div role="tabpanel" class="tab-pane active" id="home">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 full_width">
+                <table class="gold_info">
+                  <tr>
+                    <th>
+                        <span>年化收益</span>
+                    </th>
+                    <th style="text-align:center;">期限</th>
+                    <th style="text-align:center;">起息时间</th>
+                  </tr>
+                  <tr>
+                    <td class="gold_info_number"><h3>3.</h3>86%</td>
+                    <td style="text-align:center;">随买随卖</td>
+                    <td style="text-align:center;">次日起息</td>
+                  </tr>
+                </table>
+            </div>
+            <div class="col-md-12">
+                <form>
+                  <div class="container change_password">
+                      <div class="row">
+                            <div class="col-md-12 new_password">
+                             买入价格
+                             <input class="password1" type="number" placeholder="当前黄金价格260.0元/克"  oninput="button_change (event)">
+                            </div>
+                      
+                            <div class="col-md-12 new_password">
+                             买入数量
+                             <input class="password2" type="number" placeholder="请输入买入数量" oninput="button_change (event)">
+                            </div>
+                            <div class="col-md-12 new_password">
+                             预计克重 
+                             <span>0.00克</span>
+                            </div>
+                            <div class="col-md-12 new_password">
+                             占用资金
+                             <span>3.65</span>
+                            </div>
+                            <div class="col-md-12 new_password" style="border:none;height:6rem;">
+                             预计收益 
+                             <span class="red">3.60</span>(每天)
+                            </div>
+                            <div class="form_title">
+                             请选择付款方式
+                            </div>
+                            <div class="col-md-12 new_password" style="height: 8rem;">
+                              <ul class="choose_pay">
+                                <li class="choose_way">
+                                  <img src="images/pocket.png"> 钱包余额：
+                                  <span style="margin-left:0;">2380</span>
+                                  <img class="choose" src="images/choose.png" style="width: 1.4rem;">
+                                </li>
+                                <li class="choose_way">
+                                  <img src="images/visa.png"> 银行卡
+                                  <img class="choose" src="images/choose_1.png" style="width: 1.4rem;"> 
+                                </li>
+                              </ul>                              
+                            </div>
+                            <div class="form_title" style="top:32rem;    padding: 0;">
+                              <button type="submit" disabled="disabled" class="sure">立即购买</button>
+                            </div>
+                      </div>
+                  </div>
+                  
+                </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--白银-->
+      <div role="tabpanel" class="tab-pane" id="profile">...</div>
+    </div>
+
+  </div>
+  <!--my_assets_tab end-->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        $(function() {
+            $('button').attr("disabled", true); 
+            // var password1 = $('.password1').val();            
+        });
+        /*全部选项都填好了button才可以点击*/
+        function button_change (event) {
+            var password1 = $('.password1').val(); 
+            var password2 = $('.password2').val(); 
+            if(password1==""||password2=="")
+            {
+              $('button').attr("disabled", "disabled");
+            }else{
+              $('button').attr("disabled", false);
+              $("button").css("background-color","#f5a002");
+            }
+        }
+        /*选择付款方式*/
+        $(".choose_way").click(function(){
+            $(this).parent(".choose_pay").find("li").find(".choose").attr("src","images/choose.png");
+            $(this).find(".choose").attr("src","images/choose_1.png");
+        });
+    </script>
+  </body>
+</html>
