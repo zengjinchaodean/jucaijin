@@ -1,0 +1,28 @@
+body{
+	font-family: "Microsoft YaHei";
+	background-color: #fff4e0;
+	padding-bottom: 4rem;
+	overflow-x: hidden; 
+}
+.recharge_success_img{
+	top: 4rem;
+	position: relative;
+	left: 50%;
+	margin-left: -10rem;
+	width: 20rem;
+}
+.money{
+	color: #f65320;	
+}
+.money1{
+	color: #f65320;	
+}
+.content{
+	top: 5rem;
+	position: relative;
+	text-align: center;
+	font-size: 1.6rem;
+}
+.bigger{
+	font-size: 2rem;
+}
