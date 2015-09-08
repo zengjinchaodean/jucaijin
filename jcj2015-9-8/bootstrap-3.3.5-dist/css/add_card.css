@@ -1,0 +1,156 @@
+body{
+	font-family: "Microsoft YaHei";
+	background-color: #e6e6e6;
+	padding-bottom: 4rem;
+}
+.registered_nav{
+	padding: 0;
+	height: 5rem;
+	line-height: 5rem;
+	font-size: 1.2rem;
+	background-color: #fff;
+	overflow: hidden;
+	color: #bfbfbf;
+}
+.registered_nav ul{
+	padding-left: 1rem;
+	text-align: center;
+	list-style: none;
+}
+.registered_nav li{
+	display: inline-block;
+	padding-right: 0.2rem;
+}
+.col-md-12{
+	margin-top: 2rem;
+	border-bottom: 1px solid #e6e6e6;
+	border-top: 1px solid #e6e6e6;
+}
+.on{
+	color: #f5a002;
+}
+.phone_number{
+	height: 5rem;
+	line-height: 5rem;
+	font-size: 1.2rem;
+	background-color: #fff;
+	color: #000;
+}
+input {
+    position: relative;
+	margin-left: 2rem;
+    height: 2rem;
+    line-height: 2rem;
+    border: 0;
+    background-color: #fff;
+}
+.sure {
+    margin: 0 auto;
+    position: relative;
+    top: 2rem;
+    width: 92%;
+    color: #fff;
+    font-size: 2rem;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+button {
+    display: block;
+   	padding:1rem;
+    border: 0;
+    background-color: #bfbfbf;
+}
+.phone_password{
+	margin-top: 0;
+	border:0;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+    -webkit-appearance: none !important;
+    margin: 0; 
+}
+ul span{
+	margin:0 0.6rem;
+}
+ h3{
+	display: block;
+	height: 2rem;
+	line-height: 2rem;
+	font-size: 1rem;
+	color: #808080;	
+	margin: 0.5rem 1rem 0.5rem;
+}
+.card_info{
+	height: 25rem;
+	font-size: 1.4rem;
+	background-color: #fff;
+}
+.card_name{
+	border-top: none;
+}
+.card_name span{
+	margin-left: 2rem;
+    position: relative;
+
+}
+
+.card .col-md-12{
+	height:3rem;
+}
+.choose_bank {
+    display: inline-block;
+    color: #b2b2b2;
+}
+.choose_bank_title {
+    position: relative;
+    text-align: center;
+}
+.gold{
+	border-bottom: 1px solid #d8941a;
+}
+.choose_card {
+    position: absolute;
+    display: none;
+    width: 100%;
+    bottom: 0;
+    z-index: 991;
+    background-color: #e6e6e6;
+}
+.card_list {
+    border-bottom: 1px solid #e6e6e6;
+    margin: 0 15px 0 15px;
+    padding: 0;
+}
+.card_list img {
+    margin: 0 1rem;
+}
+.choose_card img {
+    width: 2rem;
+}
+.choose_bank_title img {
+    position: absolute;
+    left: 1rem;
+    top: 1rem;
+}
+.choose_card .col-md-12{
+	border-top: none;
+    height: 4.5rem;
+    line-height: 4.5rem;
+    font-size: 1.6rem;
+    background-color: #fff;
+}
+.bgc {
+    position: absolute;
+    display: none;
+    top: 0;
+    width: 100%;
+    /* height: 100%; */
+    font-weight: bold;
+    background-color: #000;
+    -webkit-opacity: 0.5;
+    opacity: 0.5;
+    z-index: 990;
+}
+.password1{
+	color: #000;
+}
