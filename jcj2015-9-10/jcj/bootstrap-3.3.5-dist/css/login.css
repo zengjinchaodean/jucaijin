@@ -1,0 +1,22 @@
+body{
+	font-family: "Microsoft YaHei";
+	background-color: #e6e6e6;
+	padding-bottom: 4rem;
+}
+.sure{
+	height: 4rem;
+	width: 92%;
+	background-color: #bfbfbf;
+}
+.nav_login{
+	top: 2rem;
+}
+a{
+	color: #eca00e;
+}
+.eye{
+	width: 2rem;
+	position: absolute;
+	right: 1rem;
+	top: 35%;
+}

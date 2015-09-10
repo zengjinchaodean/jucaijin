@@ -1,0 +1,111 @@
+body{
+	font-family: "Microsoft YaHei";
+	background-color: #e6e6e6;
+	padding-bottom: 4rem;
+}
+.container{
+	padding:0;
+
+}
+.row{
+	margin-right: 0;
+}
+.col-md-12{
+	padding-right: 0;
+	margin-bottom: 1rem;
+}
+.product{
+	position: relative;
+	height: 13.6rem;
+	overflow: hidden;
+	background-color: #fff;
+}
+.product .product_title{
+	position: relative;
+	padding: 1rem 0 0.5rem 0;
+    margin-left: 1rem;
+    margin-bottom: 0.5rem;
+	display: block;
+	width: 90%;
+	font-size: 1.8rem;
+	color: #595959;
+	border-bottom:1px solid #e0e0e0;
+}
+.product img{
+	float: left;
+	width: 8rem;
+	margin-left: 1rem;
+}
+ul{
+	float: left;
+	margin-left: 1rem;
+	padding:0;
+	list-style: none;
+	overflow: hidden;
+}
+li{
+	margin-bottom: 0.8rem;
+	font-size: 1rem;
+	color:#8c8c8c;
+}
+.address{
+	height: 7.6rem;
+	background-color: #8e98a9;
+}
+.address div{
+	padding: 0.5rem 1rem 0.5rem 2rem;
+	color: #fff;
+}
+.address_per{
+	font-size: 1.6rem;
+}
+.address_info{
+	font-size: 1.4rem;
+}
+.change_number{
+	background-color: #fff;
+	border-top: 1px solid #e6e6e6;	
+	overflow: hidden;
+	font-size: 1.2rem;
+}
+.change_number_block{
+	float: right;
+}
+.change_number_block div{
+	display: inline-block;
+	margin:1rem;
+	width: 2.6rem;
+	height: 1.6rem;
+	text-align: center;
+	border:1px solid #e6e6e6;
+}
+.change_number_block img{	
+	width: 1rem;
+}
+.total{
+	position: absolute;
+	width: 100%;
+	bottom: 0px;
+	border-top: 1px solid #e6e6e6;
+	background-color: #fff;
+}
+.total_block{
+	float: right;
+	font-size: 1rem;
+}
+.sure_button{
+	display: inline-block;
+	height: 4rem;
+	width: 10rem;
+	color: #fff;
+	font-size: 1.6rem;
+	line-height: 4rem;
+	text-align: center;
+	background-color: #ec5b28;
+}
+.navbar-default{
+	background-color: #e6e6e6;
+}
+.total_number{
+	font-size: 1.4rem;
+}
