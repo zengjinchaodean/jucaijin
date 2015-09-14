@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1.0, user-scalable=0">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>登陆</title>
+
+    <!-- Bootstrap -->
+    <link href="bootstrap-3.3.5-dist/css/bootstrap.css" rel="stylesheet">
+        <link href="bootstrap-3.3.5-dist/css/change_password_login.css" rel="stylesheet">
+    <link href="bootstrap-3.3.5-dist/css/login.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+  <form>
+    <div class="container change_password">
+        <div class="row">
+              <div class="col-md-12 old_password">
+               用户名
+               <input class="password1" type="text" placeholder="请输入用户名"  oninput="button_change (event)">
+              </div>
+        
+              <div class="col-md-12 new_password">
+               密 码
+               <input class="password2" type="password" placeholder="请输入密码" oninput="button_change (event)">
+               <img src="images/eye.png" class="eye">
+              </div>
+              <button type="submit" disabled="disabled" class="sure">登 陆</button>
+              <div class="col-md-12 nav_login" style="margin:0 1.6rem;">
+              <a href="index.html"><span>注册</span></a>
+              <a href="index.html"><span style="float:right;">忘记密码</span></a>
+              </div>
+        </div>
+        
+    </div>
+    
+  </form>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
+        <script type="text/javascript">
+        $(function() {
+            $('button').attr("disabled", true); 
+            // var password1 = $('.password1').val();            
+        });
+        /*全部选项都填好了button才可以点击*/
+        function button_change (event) {
+            var password1 = $('.password1').val(); 
+            var password2 = $('.password2').val();  
+            if(password1==""||password2=="")
+            {
+              $('button').attr("disabled", "disabled");
+            }else{
+              $('button').attr("disabled", false);
+              $("button").css("background-color","#f5a002");
+            }
+        }
+    </script>
+  </body>
+</html>
