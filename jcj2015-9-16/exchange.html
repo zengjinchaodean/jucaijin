@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1.0, user-scalable=0">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>确认兑换</title>
+
+    <!-- Bootstrap -->
+    <link href="bootstrap-3.3.5-dist/css/bootstrap.css" rel="stylesheet">
+    <link href="bootstrap-3.3.5-dist/css/exchange.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+  <!--produt_list start-->
+    <div class="container">
+        <div class="row">
+          <div class="col-md-12 address">
+              <div class="address_per">收货人：<span>王小二</span></div>
+              <div class="address_info">收获地址：<span>深圳市 南山区 比克科技大厦2202-F</span></div>
+          </div>
+          <div class="col-md-12">
+              <div class="product">
+                  <span class="product_title">招金标准金条&nbsp;10g</span>
+                  <img src="images/zhaojin.png">
+                  <ul>
+                    <li>纯度：AU999 </li>
+                    <li>克重：10克 </li>
+                    <li>工费：6.99元/克 </li>
+                    <li>尺寸：16mm * 16mm*16mm </li>
+                  </ul>
+              </div>
+              <div class="change_number">
+                <div class="change_number_block">
+                  兑换数量
+                  <div class="minus" onclick="minus()"><img src="images/minus.png"></div>
+                  <span class="number">1</span>
+                  <div class="add" onclick="add()"><img src="images/add.png"></div>
+                </div>
+              </div>
+          </div>
+        </div>
+    </div>
+  <!--produt_list end-->
+    <div class="container total">
+      <div class="total_block">
+        合计：￥<span class="total_number">2600.00</span>
+        <div class="sure_button">确认</div>
+      </div>
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        function add () {
+          var a = $('.number').html();
+          a++;
+          var total = a * 2600.00;
+          $('.number').html(a) ;
+          $('.total_number').html(total+".00") ;
+        }
+        function minus () {
+          var a = $('.number').html();
+          a--;
+          var total = a * 2600.00;
+          if($('.number').html()!=0)
+          {
+            $('.number').html(a) ;
+            $('.total_number').html(total+".00") ;
+          }
+          else{
+            $('.number').html('0') ;
+            $('.total_number').html("0.00") ;
+          }
+        }
+    </script>
+  </body>
+</html>
