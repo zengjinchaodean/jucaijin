@@ -1,0 +1,58 @@
+body{
+	font-family: "Microsoft YaHei";
+	background-color: #f3f3f3;
+	padding-bottom: 4rem;
+}
+.container{
+	height: 9rem;
+	background-color: #fff;
+}
+.registered_success{
+	border-bottom: 1px solid #e6e6e6;
+}
+.registered_success_title{
+	text-align: center;
+}
+.registered_success_title img{
+	width: 4rem;
+	margin:1rem 0 1rem 0;
+}
+.registered_success_title p{
+	font-size: 1rem;
+	color: #3abe4e;
+}
+.registered_success_content{
+	margin-top: 2rem;
+	font-size: 1.6rem;
+	text-align: center;
+	color: #595959;	
+}
+.go_yellow{
+	margin:2rem auto ;
+	height: 3rem;
+	width: 80%;
+	line-height: 3rem;
+	font-size: 2rem;
+	text-align: center;
+	background-color: #f5a002;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px
+}
+.go_index{
+	margin:2rem auto ;
+	height: 3rem;
+	width: 80%;
+	line-height: 3rem;
+	font-size: 2rem;
+	text-align: center;
+	background-color: #f3f3f3;
+	color: #8c8c8c;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	border:1px solid #8c8c8c;
+}
+a{
+	color: #fff;
+}
