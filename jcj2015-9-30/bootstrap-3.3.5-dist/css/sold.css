@@ -1,0 +1,86 @@
+body{
+	font-family: "Microsoft YaHei";
+	background-color: #f3f3f3;
+	padding-bottom: 4rem;
+}
+.col-md-12{
+	padding: 0;
+	font-size: 1.4rem;
+	background-color: #fff;
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus{
+	color: #eb4848;
+	border:0;
+	border-bottom: 4px solid #eb4848;
+}
+.nav-tabs li{
+	width: 50%;
+	height: 100%;
+	text-align: center;
+}
+.nav-tabs{
+	background-color: #fff;
+}
+a{
+	padding:0;
+	font-size: 1.3rem;
+	white-space:nowrap;
+	color: #595959;
+}
+.sold{
+	margin:0 auto;
+	width: 90%;
+	margin-top: 2rem;
+	height: 4rem;
+	line-height: 4rem;
+	background-color: #fff;
+	border-bottom: 1px solid #e3e3e3;
+}
+.sold_number{
+	margin:0 auto;
+	width: 90%;
+	height: 4rem;
+	line-height: 4rem;
+	background-color: #fff;
+}
+.sure{
+	display: block;
+	margin: 0 auto;
+	position: relative;
+	width: 90%;
+	color: #fff;
+	font-size: 2rem;
+	border:0;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	height: 4rem;
+	top: 4rem;
+}
+.sold_price{
+	display: inline-block;
+	margin-left: 3rem;
+}
+.sold_price_number{
+	font-size: 1.6rem;
+	color: #d18d0b;
+}
+input {
+    position: relative;
+    margin-left: 3rem;
+    height: 2rem;
+    width: 58%;
+    line-height: 2rem;
+    border: 0;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+    -webkit-appearance: none !important;
+}
+.new_password {
+    width: 90%;
+    font-size: 1.2rem;
+    border-bottom: 1px solid #e3e3e3;
+}	
+.sold_number span{
+	margin-left: 3rem;
+}
