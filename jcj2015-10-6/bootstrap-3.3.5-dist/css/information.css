@@ -1,0 +1,61 @@
+body{
+	font-family: "Microsoft YaHei";
+	background-color: #f3f3f3;
+	padding-bottom: 4rem;
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus{
+	color: #eb4848;
+	border:0;
+	border-bottom: 4px solid #eb4848;
+}
+.nav-tabs li{
+	width: 50%;
+	height: 100%;
+	text-align: center;
+}
+.col-md-12{
+	background-color: #fff;
+	height: 4rem;
+	border-bottom: 1px solid #e6e6e6;
+}
+.nav-tabs{
+	background-color: #fff;
+}
+a{
+	padding:0;
+	font-size: 1.3rem;
+	white-space:nowrap;
+	color: #595959;
+}	
+.my_assets_tab{
+	height: 100%;
+	width: 100%;
+}
+.trend{
+	margin-top: 1rem;
+	border-bottom: 1px solid #e6e6e6;
+	border-top: 1px solid #e6e6e6;
+}
+.gold_title{
+	margin-top: 1rem;
+	border-bottom: 1px solid #e6e6e6;
+}
+.gold_title span{
+	padding-left: 1rem;
+	display: block;
+	margin-bottom: 1rem;
+	font-size: 1.5rem;
+	font-weight: 700;
+	color: #595959;
+}
+.gold_title_name{
+	margin:0;
+	padding-top: 0.5rem;
+	font-size: 1.2rem;
+	color: #595959;
+	font-weight: 700;
+}
+.gold_title_time{
+	color: #595959;
+	font-size: 1rem;
+}
