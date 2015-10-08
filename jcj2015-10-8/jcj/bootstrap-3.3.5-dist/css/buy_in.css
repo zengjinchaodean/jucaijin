@@ -1,0 +1,126 @@
+body{
+	overflow: auto;
+	font-family: "Microsoft YaHei";
+	background-color: #f3f3f3;
+	padding-bottom: 4rem;
+}
+.row{
+	margin-right: -15px;
+	margin-left: -15px;
+}
+.real_name_info{
+	background-color: #fff;
+	font-size: 1.4rem;
+}
+.real_name_info .col-md-12{
+	height: 3.6rem;
+	line-height: 3.6rem;
+	margin: 0 auto;
+	width: 90%;	
+	color: #595959;
+}
+.real_name_info span{
+	float: right;
+	color: #999999;
+}
+.real_name_info img{
+	width: 100%;
+}
+.buy_in_title{
+	background-color: #fff;
+	height: 6.5rem;
+	border-bottom: 1px solid #e6e6e6;
+}
+th{
+	color: #8c8c8c;
+	font-size: 1.2rem;
+}
+.buy_in_number{
+	color: #d18d0b;
+	margin-top: 1rem;
+	font-size: 2rem;
+}
+table{
+	position: relative;
+	top: 1rem;
+	left: 1rem;
+}
+.buy_title_block{
+	position: absolute;
+	right: 1rem;	
+	top: 1rem;
+}
+.buy_title_block_info{
+	display: inline-block;
+	-webkit-border-radius:2px;
+	margin-right: 0.5rem;
+	border-radius:2px;
+	width: 5rem;
+	height: 1.5rem;
+	background-color: #f48022;
+	color: #fff;
+	font-size: 1rem;
+	text-align: center;
+}
+.buy_in_content{
+	padding-left: 15px;
+	padding-right: 15px;
+	position: relative;
+	top: 1rem;
+	border-top: 1px solid #e6e6e6;
+	border-bottom: 1px solid #e6e6e6;
+	background-color: #fff;
+}
+.buy_in_content_info{
+	margin: 0 15px;
+	padding: 0;
+	border-bottom: 1px solid #e3e3e3;
+	height: 4rem;
+	line-height: 4rem;
+	color: #8c8c8c;
+	font-size: 1.4rem;
+}
+.buy_in_content_info1{
+	margin: 0 15px;
+	padding: 0;
+	border-bottom: 0px solid #e3e3e3;
+	height: 4rem;
+	line-height: 4rem;
+	color: #8c8c8c;
+	font-size: 1.4rem;
+}
+.buy_in_content_info_s{
+	float: right;
+	margin-right: 2rem;
+	color: #595959;
+}
+.buy_in_content_info_s1{
+	float: right;
+	margin-right: 1rem;
+	color: #595959;
+}
+.buy_in_content_info_i{
+	float: right;
+}
+.buy_incontent_info{
+	position: relative;
+	top: 2rem;
+	color: #8c8c8c;
+	text-align: center;
+	font-size: 1.2rem;
+}
+.buy_incontent_info img{
+	width: 2rem;
+}
+.buy_in_button{
+	position: relative;
+	top: 4rem;
+	height: 4rem;
+	line-height: 4rem;
+	background-color: #f4ac22;
+	-webkit-border-radius:2px;
+	border-radius:2px;
+	color: #fff;
+	text-align: center;
+	font-size: 2rem;
+}
