@@ -1,0 +1,112 @@
+body{
+	font-family: "Microsoft YaHei";
+	background-color: #e6e6e6;
+	padding-bottom: 4rem;
+}
+.registered_nav{
+	padding: 0;
+	height: 5rem;
+	line-height: 5rem;
+	font-size: 1.2rem;
+	background-color: #fff;
+	overflow: hidden;
+	color: #bfbfbf;
+}
+.registered_nav ul{
+	padding-left: 1rem;
+	text-align: center;
+	list-style: none;
+}
+.registered_nav li{
+	display: inline-block;
+	padding-right: 0.2rem;
+}
+.col-md-12{
+	margin-top: 1rem;
+	border-bottom: 1px solid #e6e6e6;
+	border-top: 1px solid #e6e6e6;
+}
+.on{
+	color: #f5a002;
+}
+.phone_number{
+	height: 5rem;
+	line-height: 5rem;
+	font-size: 1.2rem;
+	background-color: #fff;
+	color: #000;
+}
+input {
+    position: relative;
+    float: right;
+    right: 5rem;
+    top: 1.5rem;
+    height: 2rem;
+    line-height: 2rem;
+    border: 0;
+    background-color: #fff;
+}
+.sure {
+    margin: 0 auto;
+    position: relative;
+    display: block;
+    top: 2rem;
+    width: 92%;
+    color: #fff;
+    font-size: 2rem;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+button {
+    display: block;
+   	padding:1rem;
+    border: 0;
+    background-color: #bfbfbf;
+    display: inline-block;
+}
+.phone_password{
+	margin-top: 0;
+	border:0;
+}
+.sure_validate{
+	width: 5.5rem;
+	height: 2rem;
+	font-size: 1rem;
+	line-height: 0rem;
+	position: absolute;
+	right: 0.4rem;
+	top: 1.5rem;
+	color: #fff;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	padding: 0;
+}
+.sure_validate1{
+	width: 5.5rem;
+	height: 2rem;
+	font-size: 1rem;
+	line-height: 0rem;
+	position: absolute;
+	right: 0.4rem;
+	top: 1.5rem;
+	color: #fff;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	padding: 0;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+    -webkit-appearance: none !important;
+    margin: 0; 
+}
+ul span{
+	margin:0 0.6rem;
+}
+ h3{
+	display: block;
+	height: 2rem;
+	line-height: 2rem;
+	font-size: 1rem;
+	color: #808080;	
+	margin: 0.5rem 1rem 0.5rem;
+}
