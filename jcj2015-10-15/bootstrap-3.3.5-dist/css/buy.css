@@ -1,0 +1,250 @@
+
+body{
+	font-family: "Microsoft YaHei";
+	background-color: #f3f3f3;
+	padding-bottom: 4rem;
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus{
+	color: #eb4848;
+	border:0;
+	border-bottom: 4px solid #eb4848;
+}
+.nav-tabs li{
+	width: 50%;
+	height: 100%;
+	text-align: center;
+}
+.nav-tabs{
+	background-color: #fff;
+}
+a{
+	padding:0;
+	font-size: 1.6rem;
+	white-space:nowrap;
+	color: #595959;
+}
+th{
+	line-height: 3rem;
+	color: #8c8c8c;
+}	
+td{
+	font-size: 1.4	rem;
+}
+.col-md-12{
+	background-color: #fff;
+}
+.gold_info{
+	margin: 1rem auto;
+	width: 90%;	
+	font-size: 1rem;
+}
+.full_width{
+	margin-bottom: 1rem;
+	padding: 0;
+	height: 6.4rem;
+}
+.gold_info_number{
+	color: #d18d0b;
+}
+.gold_info_number h3{
+	margin: 0;
+	font-size: 2rem;
+	display: inline-block;
+}
+.change_password .col-md-12 {
+    padding: 0;
+    margin: 0 auto;
+    height: 4rem;
+    line-height: 4rem;
+    background-color: #fff;
+}
+input{
+	position: relative;
+    margin-left: 4.5rem;
+	height: 2rem;
+	width: 58%;
+	line-height: 2rem;
+	border:0;
+}
+.new_password {
+    width: 90%;
+    font-size: 1.2rem;
+    border-bottom: 1px solid #e3e3e3;
+}	
+.form_title{
+	width: 100%;
+	height: 2.5rem;
+	line-height: 2.5rem;
+	position: absolute;
+	top: 20rem;
+	left: 0;
+	padding-left: 2rem;
+	font-size: 1.2rem;
+	background-color: #f3f3f3;
+	z-index: 100;
+}
+.new_password span{
+	margin-left: 4.5rem;
+	font-size: 1rem;
+}
+.red{
+	color: #eb4848;
+}
+.sure{
+	margin: 0 auto;
+	position: relative;
+	width: 90%;
+	color: #fff;
+	font-size: 2rem;
+	border:0;
+	 height: 4rem;
+	 line-height: 4rem;
+	 -webkit-border-radius: 2px;
+	 border-radius: 2px;
+	 color: #fff;
+	 text-align: center;
+	 font-size: 2rem;
+}
+.new_password img{
+	width: 2rem;
+}
+button{
+	display: block;
+	border:0;
+	background-color: #f0ba57;
+}
+li{
+	list-style-type: none;
+}
+ul{
+	padding: 0;
+}
+li:nth-child(1){
+	border-bottom: 1px solid #e3e3e3;
+}
+.choose{
+	float: right;
+	position: relative;
+	top: 1.4rem;
+}
+.money_not{
+	display: none;
+	position: absolute;
+	padding: 0.5rem 3rem;
+	top: 45%;
+	left: 50%;
+	margin-left: -4.5rem;
+	font-size: 1rem;
+	color: #fff;
+	background-color: #6b6b6b;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+}
+.bgc{
+	position: absolute;
+	display: none;
+	top: 0;
+	width: 100%;
+/*	height: 100%;*/
+	background-color: #000;
+	-webkit-opacity:0.5;
+	opacity:0.5;
+	z-index: 990;
+}
+.loading{
+	display: none;
+	position: absolute;
+	top: 24%;
+	left: 50%;
+	line-height: 4rem;
+	margin-left: -4rem;
+	background-color: #6b6b6b;
+	color: #fff;
+	height: 8rem;
+	width: 8rem;
+	font-size: 1.2rem;
+	text-align: center;
+	-webkit-border-radius: 5px;	
+	border-radius: 5px;
+	z-index: 999;
+}
+.loading img{
+	width: 3rem;
+}
+.pay_password{
+	display: none;
+	position: absolute;
+	top: 24%;
+	width: 100%;
+	height: 14rem;
+	text-align: center;
+	background-color: #f3f3f3;
+	z-index: 999;
+}
+.pay_password .col-md-12{
+	background-color: #f3f3f3;
+}
+.pay_password_title{
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	margin-bottom: 0px;
+	font-size: 1.6rem;
+}
+.pay_password_input{
+	background-color: #fff;
+	margin: 0 auto;
+	width: 80%;
+	border-radius: 3px;
+	font-size: 1.2rem;
+	height: 3rem;
+	    line-height: 3rem;
+}
+.pay_password_input input{
+	position: relative;
+	margin-left: 0.5rem;
+	height: 2rem;
+	width: 59%;
+	line-height: 2rem;
+	border: 0;
+}
+.pay_password_buttun button{
+	display: inline-block;
+	height: 2.8rem;
+	line-height: 1;
+	font-size: 1rem;
+	margin-top: 1rem;
+	width: 35%;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	border: 0px;
+}
+.sure_button{
+	color: #fff;
+	background-color: #f5a002;
+}
+.forget_password{
+    position: absolute;
+    bottom: 0.5rem;
+    right: 1rem;
+    font-size: 1.2rem;   
+}
+.buy_in_price{
+	color: #d18d0b;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+    -webkit-appearance: none !important;
+}
+.money_notenough{
+	display: none;
+	position: absolute;
+    color: #eb4848;
+    font-size: 1.2rem;
+    left: 2rem;
+    top: 30rem;
+}
+.buy_incontent_info{
+	margin: 0 auto;
+	color: #8c8c8c;
+	text-align: center;
+}

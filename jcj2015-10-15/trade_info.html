@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1.0, user-scalable=0">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>交易明细</title>
+
+    <!-- Bootstrap -->
+    <link href="bootstrap-3.3.5-dist/css/bootstrap.css" rel="stylesheet">
+    <link href="bootstrap-3.3.5-dist/css/trade_info.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="dropdown">
+    <ul class="dropdown_title">
+
+        <li class="dropdown_title_li">
+        <div class="gray_block1"></div>
+          <button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown_button">
+            交易类型
+            <span class="caret"></span>
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dLabel">
+            <li role="presentation"><span>全部</span></li>  
+            <li role="presentation"><span>买入</span></li>  
+            <li role="presentation"><span>卖出</span></li>
+            <li role="presentation"><span>充值</span></li>  
+            <li role="presentation"><span>提现</span></li> 
+            <li role="presentation"><span>出库</span></li> 
+            <li role="presentation"><span>入库</span></li>  
+            <li role="presentation"><span>奖励</span></li> 
+            <li role="presentation"><span>赠送</span></li>   
+            <li role="presentation"><span>手续费</span></li> 
+          </ul>
+          <div class="gray_block2"></div>
+        </li>
+        <li class="dropdown_title_li">
+          <button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown_button">
+            交易日期
+            <span class="caret"></span>
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dLabel">
+            <li role="presentation"><span>全部</span></li>  
+            <li role="presentation"><span>近七天</span></li>  
+            <li role="presentation"><span>近一个月</span></li>  
+            <li role="presentation"><span>近两个月</span></li> 
+            <li role="presentation"><span>近三个月</span></li>   
+          </ul>
+        </li>
+    </ul>
+    </div>
+    <!--主要内容-->
+    <div class="container main_info">
+      <div class="row">
+        <div class="col-md-12 main_info_block">
+            <a href="index.html">
+              <div class="main_title">
+                活期黄金
+                <p>
+                  <span class="main_number">08-11</span>
+                  <span>买入</span>
+                  <span class="no-finished">未完成</span>
+                </p>
+              </div>
+              <div class="money">49.80</div>
+            </a>
+        </div>
+        <div class="col-md-12 main_info_block">
+            <a href="index.html">
+              <div class="main_title">
+                活期黄金
+                <p>
+                  <span class="main_number">08-11</span>
+                  <span>买入</span>
+                  <span class="no-finished">未完成</span>
+                </p>
+              </div>
+              <div class="money">49.80</div>
+            </a>
+        </div>
+        <div class="col-md-12 main_info_block">
+            <a href="index.html">
+              <div class="main_title">
+                活期黄金
+                <p>
+                  <span class="main_number">08-11</span>
+                  <span>买入</span>
+                </p>
+              </div>
+              <div class="money">49.80</div>
+            </a>
+        </div>
+        <div class="col-md-12 main_info_block">
+            <a href="index.html">
+              <div class="main_title">
+                活期黄金
+                <p>
+                  <span class="main_number">08-11</span>
+                  <span>买入</span>
+                </p>
+              </div>
+              <div class="money">49.80</div>
+            </a>
+        </div>
+        <div class="col-md-12 main_info_block">
+            <a href="index.html">
+              <div class="main_title">
+                活期黄金
+                <p>
+                  <span class="main_number">08-11</span>
+                  <span>买入</span>
+                </p>
+              </div>
+              <div class="money">49.80</div>
+            </a>
+        </div>
+      </div>
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+    $('.dropdown-toggle').dropdown();
+    </script>
+  </body>
+</html>

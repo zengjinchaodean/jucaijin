@@ -1,0 +1,8 @@
+.border_dialog  {
+	padding: 15px;
+	text-indent: 2rem;
+	text-align: left;
+}
+.border_dialog span {
+    color: #595959;
+}

@@ -1,0 +1,188 @@
+body{
+	font-family: "Microsoft YaHei";
+	background-color: #e6e6e6;
+}
+.col-md-12{
+	margin-top: 1rem;
+	color: #595959;
+	padding: 0;
+}
+.main{
+	margin-bottom: 4rem;
+}
+.card{
+	margin: 0 auto;
+	        width: 90%;
+	        height: 8rem;
+	        background-color: #fff;
+	        font-size: 1.6rem;
+	        border: 1px solid #c7c6c6;
+}
+.card img{
+	width: 4rem;
+	        margin: 0 1rem 0 1rem;
+	        position: relative;
+	        top: 50%;
+	        margin-top: -3.5rem;
+}
+.add_card{
+	position: relative;
+	margin: 0 auto;
+	width: 24rem;
+	height: 10rem;
+	background-color: #fff;
+	border: 1px solid #c7c6c6;
+}
+table{
+	display: inline-block;
+}
+h4{
+	display: inline-block;
+	font-size: 1.7rem;
+}
+ul{
+	padding: 0;
+	list-style: none;
+	overflow: hidden;
+	margin-left: -1rem;
+}
+li{
+	float: left;
+	margin-left: 1rem;
+}
+.card_info{
+	padding-top: 1rem;
+	margin-left: 7rem;
+	display: inline-block;
+}
+.card_img{
+	height: 100%;
+	display: inline-block;
+	position: absolute;
+	top: 0;
+}
+.add_card_info{
+	position: relative;
+	top: 50%;
+	left: 50%;
+	width: 70%;
+	font-size: 1.6rem;
+	margin-left: -5.5rem;
+	margin-top: -2.5rem;
+}
+.add_card_info img{
+	width: 5rem;
+}
+.bgc{
+    position: absolute;
+    display: none;
+    top: 0;
+    width: 100%;
+/*  height: 100%;*/
+    font-weight: bold;
+    background-color: #000;
+    -webkit-opacity:0.5;
+    opacity:0.5;
+    z-index: 990;
+}
+.del{
+	display: none;
+	position: absolute;
+	height: 11rem;
+	width: 100%;
+	bottom: 0;
+	z-index: 999;
+	background-color: #393939;
+}
+.delete{
+	float: none;
+	margin: 0 auto;
+	margin-top: 1rem;
+	background-color: #f5a002;
+	width: 80%;
+	height: 4rem;
+	text-align: center;
+	font-size: 1.6rem;	
+	line-height: 4rem;
+	color: #fff;
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+}
+.delete_white{
+	float: none;
+	margin: 0 auto;
+	margin-top: 1rem;
+	background-color: #fff;
+	color: #595959;
+	width: 80%;
+	height: 4rem;
+	text-align: center;
+	font-size: 1.6rem;	
+	line-height: 4rem;
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+}
+.pay_password {
+     display: none; 
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    height: 17rem;
+    text-align: center;
+    background-color: #f3f3f3;
+    z-index: 999;
+}
+.forget_password{
+    position: absolute;
+    bottom: 0.5rem;
+    right: 1rem;
+    font-size: 1.2rem;   
+}
+.pay_password .col-md-12 {
+	padding: 0;
+    background-color: #f3f3f3;
+}
+.pay_password_title {
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    font-size: 1.6rem;
+}
+.pay_password_input {
+    background-color: #fff;
+    margin: 0 auto;
+    width: 80%;
+    border-radius: 3px;
+    font-size: 1.2rem;
+    height: 3rem;
+    line-height: 3rem;
+    margin-bottom: 1rem;
+}
+.pay_password_input input {
+    position: relative;
+    margin-left: 0.5rem;
+    height: 2rem;
+    width: 59%;
+    line-height: 2rem;
+    border: 0;
+}
+.pay_password_buttun button {
+    display: inline-block;
+    height: 2.5rem;
+    font-size: 1rem;
+    margin-top: 1rem;
+    width: 39%;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+}
+.sure_button {
+    color: #fff;
+    background-color: #f5a002;
+}
+button {
+    display: block;
+    border: 0;
+    background-color: #bfbfbf;
+}
+a{
+	color: #595959;
+}
