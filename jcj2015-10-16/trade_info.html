@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1.0, user-scalable=0">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>交易明细</title>
+
+    <!-- Bootstrap -->
+    <link href="bootstrap-3.3.5-dist/css/bootstrap.css" rel="stylesheet">
+    <link href="bootstrap-3.3.5-dist/css/trade_info.css" rel="stylesheet">
+    <link href="bootstrap-3.3.5-dist/css/common.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <form>
+    <div class="dropdown">
+    <ul class="dropdown_title">
+    
+        <li class="dropdown_title_li">
+          <button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown_button">
+            <span class="trade_class">交易类型</span>
+            <span class="caret"></span>
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dLabel">
+            <li role="presentation"><span class="choose">全部</span></li>  
+            <li role="presentation"><span class="choose">买入</span></li>  
+            <li role="presentation"><span class="choose">卖出</span></li>
+            <li role="presentation"><span class="choose">充值</span></li>  
+            <li role="presentation"><span class="choose">提现</span></li> 
+            <li role="presentation"><span class="choose">出库</span></li> 
+            <li role="presentation"><span class="choose">入库</span></li>  
+            <li role="presentation"><span class="choose">奖励</span></li> 
+            <li role="presentation"><span class="choose">赠送</span></li>   
+            <li role="presentation"><span class="choose">手续费</span></li> 
+          </ul>
+          <div class="gray_block2"></div>
+        </li>
+        <li class="dropdown_title_li">
+          <button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown_button">
+            <span class="trade_time">交易日期</span>
+            <span class="caret"></span>
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dLabel">
+            <li role="presentation"><span class="choose_date">全部</span></li>  
+            <li role="presentation"><span class="choose_date">近七天</span></li>  
+            <li role="presentation"><span class="choose_date">近一个月</span></li>  
+            <li role="presentation"><span class="choose_date">近两个月</span></li> 
+            <li role="presentation"><span class="choose_date">近三个月</span></li>   
+          </ul>
+        </li>
+    </ul>
+    </div>
+    <input type="submit" placeholder="查询" class="check_button" />
+    </form>
+    <!--主要内容-->
+    <div class="container main_info">
+      <div class="row">
+        <div class="col-md-12 main_info_block">
+            <a href="index.html">
+              <div class="main_title">
+                活期黄金
+                <p>
+                  <span class="main_number">08-11</span>
+                  <span>买入</span>
+                  <span class="no-finished">未完成</span>
+                </p>
+              </div>
+              <div class="money">49.80</div>
+            </a>
+        </div>
+        <div class="col-md-12 main_info_block">
+            <a href="index.html">
+              <div class="main_title">
+                活期黄金
+                <p>
+                  <span class="main_number">08-11</span>
+                  <span>买入</span>
+                  <span class="no-finished">未完成</span>
+                </p>
+              </div>
+              <div class="money">49.80</div>
+            </a>
+        </div>
+        <div class="col-md-12 main_info_block">
+            <a href="index.html">
+              <div class="main_title">
+                活期黄金
+                <p>
+                  <span class="main_number">08-11</span>
+                  <span>买入</span>
+                </p>
+              </div>
+              <div class="money">49.80</div>
+            </a>
+        </div>
+        <div class="col-md-12 main_info_block">
+            <a href="index.html">
+              <div class="main_title">
+                活期黄金
+                <p>
+                  <span class="main_number">08-11</span>
+                  <span>买入</span>
+                </p>
+              </div>
+              <div class="money">49.80</div>
+            </a>
+        </div>
+        <div class="col-md-12 main_info_block">
+            <a href="index.html">
+              <div class="main_title">
+                活期黄金
+                <p>
+                  <span class="main_number">08-11</span>
+                  <span>买入</span>
+                </p>
+              </div>
+              <div class="money">49.80</div>
+            </a>
+        </div>
+      </div>
+    </div>
+   <!--底部导航栏-->
+        <div class="container">
+            <ul class="nav navbar-nav navbar-fixed-bottom w bgf8 index-footer" style="margin:0;height:5rem;background-color:#fff;">
+                    <a href="index.html" style="padding:0;margin:0;"><li class="col-md-3" style="width: 25%;border-bottom:0px;"><img src="images/home_index.png" class="footer_images_1" onfocus="blur()"/><p>首页<p></li></a>
+                    <a href="information.html"  style="padding:0;margin:0;" onfocus="blur()"><li class="col-md-3" style="width: 25%;"><img src="images/info_index.png" class="footer_images_1" /><p>行情资讯</p></li></a>
+                   <a href="investment.html"  style="padding:0;margin:0;" onfocus="blur()"><li class="col-md-3" style="width: 25%;"><img src="images/invest_index.png" class="footer_images_1" /><p>我要投资</p></li></a>
+                    <a href="more.html"  style="padding:0;margin:0;" onfocus="blur()"><li class="col-md-3" style="width: 25%;"><img src="images/more_index.png" class="footer_images_1" /><p>更多</p></li></a>
+                    <!-- <li class="col-md-3" style="width: 25%;"><a href="construction.html"><img src="images/more3.png" class="footer_images_1"/><h4>更多</h4></a></li> -->
+                </ul>
+             </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+    $('.dropdown-toggle').dropdown();
+
+    /*选择类型*/
+    $('.choose').click(function(){
+      $('.trade_class').text($(this).text());
+    });
+    /**/
+    $('.choose_date').click(function(){
+      $('.trade_time').text($(this).text());
+    });
+    </script>
+  </body>
+</html>

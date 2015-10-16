@@ -1,0 +1,251 @@
+body{
+	font-family: "Microsoft YaHei";
+	background-color: #f3f3f3;
+	padding-bottom: 4rem;
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus{
+	color: #eb4848;
+	border:0;
+	border-bottom: 4px solid #eb4848;
+	font-size: 1.4rem;
+}
+.nav-tabs li{
+	width: 25%;
+	height: 100%;
+	text-align: center;
+}
+.nav-tabs{
+	background-color: #fff;
+}
+a{
+	padding:0;
+	font-size: 1.4rem;
+	white-space:nowrap;
+	color: #595959;
+}	
+.my_assets_tab{
+	height: 100%;
+	width: 100%;
+}
+.my_assets_circle{
+	position: relative;
+	width: 100%;
+	text-align: center;
+}
+.my_assets_circle_money{
+	position: absolute;
+	width: 8rem;
+	margin-left: -4rem;
+    top: 44%;
+    left: 50%;
+    font-size: 0.8rem;
+    color: #808080;
+}
+.my_assets_circle_money p{
+	margin-bottom: 5px;
+	font-family: "Microsoft JhengHei";
+	font-size: 1.7rem;
+	font-weight: 700;
+	color: #595959;
+}
+.my_assets_circle_money span{
+	font-size: 1rem;
+}
+.my_assets_circle img{
+	margin-top: 1rem;
+	width: 11rem;
+}
+.my_total_assets_list{
+	position: relative;
+	margin-top: 2rem;
+	background-color: #fff;
+	border-bottom: 1px solid #d9d9d9;
+	border-top: 1px solid #d9d9d9;
+}
+.my_total_assets_list .col-md-12{
+	margin:0 auto;
+	padding:0 1rem 0 1rem;
+	width: 90%;
+	font-size: 1rem;
+	line-height: 3rem;
+	border-bottom: 1px solid #d9d9d9;
+}
+.my_total_assets_list span{
+	float: right;
+	font-size: 1rem;
+}
+.my_total_assets_list_flag{
+	float: right;
+	padding: 5px 20px 5px 0;
+	font-size: 1rem;
+	color: #c3c3c3;
+}
+.my_total_assets_list_flag img{
+	position: relative;
+	top: -2px;
+	width: 1rem;
+}
+.my_assets_circle_jinmi{
+	position: absolute;
+	width: 8rem;
+    margin-left: -4rem;
+    top: 44%;
+    left: 50%;
+    font-size: 1rem;
+    color: #808080;
+}
+.my_assets_circle_jinmi p{
+	margin-bottom: 5px;
+	font-family: "Microsoft JhengHei";
+	font-size: 1.7rem;
+	font-weight: 700;
+	color: #595959;
+}
+.ball_red_font{
+	font-family: "Microsoft JhengHei";
+	color: #eb4848;
+}
+.ball_red{
+	margin-left: -1.6rem;
+	margin-right: 1rem;
+	display: inline-block;
+	width: 0.5rem;
+	height: 0.5rem;
+	background-color: #eb4848;
+	-moz-border-radius: 0.5rem;
+	-webkit-border-radius: 0.5rem;
+	border-radius: 0.5rem;
+}
+.ball_font{
+	font-family: "Microsoft JhengHei";
+	color: #000;
+}
+.ball{
+	margin-left: -1.6rem;
+	margin-right: 1rem;
+	display: inline-block;
+	width: 0.5rem;
+	height: 0.5rem;
+	background-color: #a0a0a0;
+	-moz-border-radius: 0.5rem;
+	-webkit-border-radius: 0.5rem;
+	border-radius: 0.5rem;
+}
+.jinmi{
+	padding-bottom: 4rem;
+}
+.my_assets_list{
+	position: relative;
+	margin-top: 1rem;
+	height: 10rem;
+	width: 100%;
+	background-color: #fff;
+	border-top:1px solid #d9d9d9;
+    border-bottom:1px solid #d9d9d9;
+}
+.my_assets_list_title{
+	height: 4rem;
+	line-height: 5rem;
+	font-size: 1.6rem;
+	color: #1a1a1a;
+	border-bottom: 1px solid #e3e3e3;
+}
+.my_assets_list_price{
+	float: right;
+	font-size: 1rem;
+	color: #808080;
+}
+.my_assets_list_introduction{
+    width: 100%;
+    font-size: 1.6rem;
+}
+.my_assets_list_introduction th{
+	line-height: 1.4rem;
+	font-weight: normal;
+	color: #595959;
+}
+.my_assets_list_introduction tr{
+	font-family: "Microsoft JhengHei";
+	line-height: 2.6rem;
+	color: #009acd;
+	font-size: 1.4rem;
+}
+.my_assets_list_introduction th:nth-child(1){
+	float: left;
+}
+.my_assets_list_introduction th:nth-child(3){
+	float: right;
+}
+.my_assets_list_introduction td:nth-child(1){
+    float: left;
+    margin-left: 1rem;
+}
+.my_assets_list_introduction td:nth-child(3){
+    float: right;
+}
+.down_nav{
+	padding: 0;
+	margin:0;
+	height: 100%;
+}
+.down_nav ul{
+	margin:0;
+	padding:0;
+	list-style: none;
+	overflow: hidden;
+}
+ .down_nav li{
+	float: left;
+	height: 4rem;
+	line-height: 4rem;
+	width: 32%;
+	text-align: center;
+	font-size: 2rem;
+	color:#fff;
+	background-color: #f4ac22;
+}
+ .down_nav_li{
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+}
+.fix{
+	margin-top: 1rem;
+}
+.my_assets_list_images{
+	display: none;
+	position: absolute;
+	margin-left: -5rem;
+    top: 20%;
+    left: 50%;
+}
+.my_assets_list_images img{
+	width: 10rem;
+}
+.my_assets_list_images p{
+	text-align: center;
+	color: #8c8c8c;
+}
+.left_day{
+	display: inline-block;
+	font-size: 1rem;
+	color: #fff;
+	background-color: #009acd;
+	position: relative;
+    height: 2rem;
+    line-height: 2rem;
+    float: right;
+    top: 1.5rem;
+    padding: 0 0.5rem;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+.trade_details{
+	position: absolute;
+	right: 2.2rem;
+	bottom: 0.8rem;
+	font-size: 1.2rem;
+	font-weight: 800;
+}
+.trade_details>a{
+	color: #eb4848;
+}
