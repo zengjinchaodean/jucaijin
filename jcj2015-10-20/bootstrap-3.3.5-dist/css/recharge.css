@@ -1,0 +1,111 @@
+body{
+	font-family: "Microsoft YaHei";
+	background-color: #e6e6e6;
+	padding-bottom: 4rem;
+	overflow-x: hidden; 
+}
+.container{
+	margin-top: 1rem;
+	border-bottom:1px solid #e6e6e6;
+	border-top:1px solid #e6e6e6;
+}
+.col-md-12{
+	height: 4.5rem;
+	line-height: 4.5rem;
+	font-size: 1.6rem;
+	background-color: #fff;
+}
+.col-md-12:nth-child(1){
+	border-bottom:1px solid #e6e6e6;
+}
+.col-md-12>span{
+	color: 
+}
+.choose_bank{
+	margin-left: 2rem;
+	display: inline-block;
+	color: #b2b2b2;
+}
+.icon {
+    position: absolute;
+    font-size: 1.4rem;
+    right: 2rem;
+    top: 1.7rem;
+    color: #d0caca;
+}
+input {
+    position: relative;
+    margin-left: 2rem;
+    height: 2rem;
+    width: 66%;
+    line-height: 1.2;
+    border: 0;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+    -webkit-appearance: none !important;
+}
+.my_total_assets_list_flag {
+    float: right;
+    padding: 5px 20px 5px 0;
+    font-size: 1rem;
+    color: #c3c3c3;
+}
+.my_total_assets_list_flag img {
+    position: relative;
+    top: -2px;
+    width: 1rem;
+}
+.sure {
+    display: block;
+    margin: 5rem auto 0;
+    position: relative;
+    height: 4rem;
+    width: 90%;
+    color: #fff;
+    font-size: 2rem;
+    background-color: #bfbfbf;
+    border: 0;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+.bgc{
+    position: absolute;
+    display: none;
+    top: 0;
+    width: 100%;
+/*  height: 100%;*/
+    font-weight: bold;
+    background-color: #000;
+    -webkit-opacity:0.5;
+    opacity:0.5;
+    z-index: 990;
+}
+.choose_card{
+    position: absolute;
+    display: none;
+    width: 100%;
+    bottom: 0;
+    z-index: 991;
+    background-color: #e6e6e6;
+}
+.choose_card img{
+    width: 2rem;
+}
+.choose_bank_title{
+    position: relative;
+    text-align: center;
+}
+.choose_bank_title img{
+    position: absolute;
+    left: 1rem;
+    top: 1rem;
+}
+.card_list{
+    border-bottom: 1px solid #e6e6e6;
+    margin: 0 15px 0 15px;
+    padding:0;
+}
+.card_list img{
+    margin: 0 1rem;
+}

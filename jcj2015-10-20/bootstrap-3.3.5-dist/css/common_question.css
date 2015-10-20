@@ -1,0 +1,50 @@
+body{
+	font-family: "Microsoft YaHei";
+	background-color: #f3f3f3;
+	padding-bottom: 4rem;
+	overflow-x:hidden;
+}
+.safe_center_info_block{
+	float: right;
+	margin-right: 1rem;
+	color: #999999;
+	-webkit-transform:rotate(90deg);
+	transform:rotate(90deg);
+}
+.common_question{
+	position: relative;
+	top: 1rem;
+	display: block;
+	font-size: 1.4rem;
+	color: #595959;
+	background-color: #fff;
+}
+.common_question .col-md-12 {
+	padding: 0;
+    border-bottom: 1px solid #e6e6e6;
+    line-height: 3.8rem;
+}
+.safe_center_info span{
+	margin-left: 1rem;
+}
+.safe_center_info{
+	display: block;
+}
+a {
+    display: block;
+    color: #595959;
+}
+.safe_center_info_content{
+	background-color: #e6e6e6;
+	min-height: 5rem;
+	font-size: 1.2rem;
+	display: none;
+	line-height: 1.4;
+	padding: 1rem 1rem 1rem 1rem;
+    border-top: 1px solid #bfbfbf;
+	border-bottom: 1px solid #bfbfbf;
+}
+.safe_center_info_content span{
+	margin: 0;
+	padding:0.5rem 1rem 1rem 1rem;
+}
