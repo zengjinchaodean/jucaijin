@@ -1,0 +1,106 @@
+body{
+	font-family: "Microsoft YaHei";
+	background-color: #f3f3f3;
+	padding-bottom: 4rem;
+}
+.container{
+	padding:0;
+
+}
+.row{
+	margin-right: 0;
+}
+.col-md-12{
+	padding-right: 0;
+	margin-bottom: 0.6rem;
+	border-top:1px solid #d9d9d9;
+	border-bottom:1px solid #d9d9d9;
+}
+/*.container .col-md-6{
+	height: 13rem;
+	background-color: #fff;
+}*/
+.product{
+	position: relative;
+	height: 13.6rem;
+	overflow: hidden;
+	background-color: #fff;
+}
+.product .product_title{
+	position: relative;
+	padding: 1rem 0 0.5rem 0;
+    margin-left: 1rem;
+    margin-bottom: 0.5rem;
+	display: block;
+	width: 90%;
+	font-size: 1.4rem;
+	color: #595959;
+	border-bottom:1px solid #e0e0e0;
+}
+.product img{
+	float: left;
+	width: 8rem;
+
+	margin-left: 1rem;
+	border: 1px solid #ededed;
+}
+ul{
+	float: left;
+	margin-left: 1rem;
+
+	padding: 0;
+	list-style: none;
+	overflow: hidden;
+}
+li{
+	margin-bottom: 1.8rem;
+	font-size: 1rem;
+	color:#8c8c8c;
+}
+.button{
+	position: absolute;
+	padding: 0.5rem;
+	top: 7rem;
+	right: 1rem;
+	color: #fff;
+	background-color: #f4ac22;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+}
+.order_number{
+	position: relative;
+    padding: 1rem 0 0.5rem 0;
+    margin-left: 1rem;
+    margin-bottom: 0.5rem;
+    display: block;
+    width: 90%;
+    font-size: 1.2rem;
+    color: #8c8c8c;
+    border-bottom: 1px solid #e0e0e0;
+}
+.produt_list_title{
+	font-size: 1.4rem;
+	color: #595959;
+}
+.produt_list_number{
+	font-size: 1rem;
+	color: #8c8c8c;
+}
+.produt_list_state1{
+	font-size: 1rem;
+	color: #45adef;
+}
+.produt_list_state2{
+	font-size: 1rem;
+	color: #f75e4a;
+}
+.produt_list_state3{
+	font-size: 1rem;
+	color: #8c8c8c;
+}
+.exchange_buy img{
+	float: right;
+	width: 4.5rem;
+	border: 0px;
+	margin: 2rem 3rem 0rem 0rem;
+}
