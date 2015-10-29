@@ -1,0 +1,60 @@
+body{
+	font-family: "Microsoft YaHei";
+	background-color: #e6e6e6;
+	padding-bottom: 4rem;
+}
+.product_info{
+	position: relative;
+	margin-bottom: 1rem;
+	height: 10rem;
+	width: 100%;
+	background-color: #fff;
+}
+.product_info_title{
+	display: block;
+	height: 4rem;
+	line-height: 4rem;
+	font-size: 1.6rem;
+	color: #595959;
+	border-bottom: 1px solid #e3e3e3;
+}
+.product_info_flag{
+	position: absolute;
+	top: 0.2rem;
+	right: 0.2rem;
+	width: 4rem;
+}
+.product_info_introduction{
+	width: 100%;
+	font-size: 1.6rem;
+}
+.product_info_introduction th{
+	text-align: center;
+	font-size: 1.4rem;
+	color: #8c8c8c;
+}
+.product_info_introduction tr{
+	text-align: center;
+	line-height: 2.6rem;
+	color: #595959;
+}
+.product_info_introduction_number{
+    font-family: "Microsoft JhengHei";
+	color: #d18d0b;
+}
+.product_info_introduction_number span{
+	font-size: 2rem;
+	font-weight: 700;
+}
+.product_info_introduction tr th:nth-child(1){
+	text-align: left;
+}
+.product_info_introduction tr td:nth-child(1){
+	text-align: left;
+}
+.product_info_introduction tr th:nth-child(3){
+	text-align: right;
+}
+.product_info_introduction tr td:nth-child(3){
+	text-align: right;
+}

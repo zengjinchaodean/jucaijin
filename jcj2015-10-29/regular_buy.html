@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1.0, user-scalable=0">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>转为定投</title>
+
+    <!-- Bootstrap -->
+    <link href="bootstrap-3.3.5-dist/css/bootstrap.css" rel="stylesheet">
+    <link href="bootstrap-3.3.5-dist/css/buy.css" rel="stylesheet">
+    <link href="bootstrap-3.3.5-dist/css/common.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+  <!--my_assets_tab start-->
+  <div>
+
+    <!-- Nav tabs -->
+    <ul class="nav nav-tabs" role="tablist">
+      <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">黄金</a></li>
+      <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">白银</a></li>
+    </ul>
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+      <!--黄金-->
+      <div role="tabpanel" class="tab-pane active" id="home">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 full_width" >
+                <table class="gold_info">
+                  <tr>
+                    <th>
+                        <span>年化收益</span>
+                    </th>
+                    <th style="text-align:center;">期限</th>
+                    <th style="text-align:center;">起息时间</th>
+                  </tr>
+                  <tr>
+                    <td class="gold_info_number"><h3>12.</h3>86%</td>
+                    <td style="text-align:center;">365天</td>
+                    <td style="text-align:center;">次日起息</td>
+                  </tr>
+                </table>
+            </div>
+            <div class="col-md-12" style="border-top:1px solid #e6e6e6;border-bottom:1px solid #e6e6e6;">
+                <form>
+                  <div class="container change_password">
+                      <div class="row">
+                            <div class="col-md-12 new_password">
+                             买入数量
+                             <input class="password1" type="number" placeholder="最大可买12手"  oninput="button_change (event)">
+                            </div>
+                            <div class="col-md-12 new_password">
+                             预计收益 
+                             <span class="red">125.03</span>
+                            </div>
+                            <div class="col-md-12 new_password" style="border:0px;">
+                             占用资金
+                             <span>3.65</span>
+                            </div>
+                            <div class="form_title" style="top:20rem;    padding: 0;">
+                              <button type="submit" disabled="disabled" class="sure button_1">立即转入</button>
+                            </div>
+                      </div>
+                  </div>
+                  
+                </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--白银-->
+      <div role="tabpanel" class="tab-pane" id="profile">
+       <div class="container">
+                 <div class="row">
+                   <div class="col-md-12 full_width">
+                       <table class="gold_info">
+                         <tr>
+                           <th>
+                               <span>年化收益</span>
+                           </th>
+                           <th style="text-align:center;">期限</th>
+                           <th style="text-align:center;">起息时间</th>
+                         </tr>
+                         <tr>
+                           <td class="gold_info_number"><h3>12.</h3>86%</td>
+                           <td style="text-align:center;">365天</td>
+                           <td style="text-align:center;">次日起息</td>
+                         </tr>
+                       </table>
+                   </div>
+                   <div class="col-md-12" style="border-top:1px solid #e6e6e6;border-bottom:1px solid #e6e6e6;">
+                       <form>
+                         <div class="container change_password">
+                             <div class="row">
+                                   <div class="col-md-12 new_password">
+                                    买入数量
+                                    <input class="password3" type="number" placeholder="最大可买12手"  oninput="button_change1 (event)">
+                                   </div>
+                                   <div class="col-md-12 new_password">
+                                    预计收益 
+                                    <span class="red">125.03</span>
+                                   </div>
+                                   <div class="col-md-12 new_password" style="border:0px;">
+                                    占用资金
+                                    <span>3.65</span>
+                                   </div>
+                                   <div class="form_title" style="top:20rem;    padding: 0;">
+                                     <button type="submit" disabled="disabled" class="sure button_2">立即转入</button>
+                                   </div>
+                             </div>
+                         </div>
+                         
+                       </form>
+                   </div>
+                 </div>
+               </div>
+     </div>
+
+  </div>
+  <!--my_assets_tab end-->
+   <!--底部导航栏-->
+        <div class="container">
+            <ul class="nav navbar-nav navbar-fixed-bottom w bgf8 index-footer" style="margin:0;height:5rem;background-color:#fff;">
+                    <a href="index.html" style="padding:0;margin:0;"><li class="col-md-3" style="width: 25%;border-bottom:0px;"><img src="images/home_index.png" class="footer_images_1" onfocus="blur()"/><p>首页<p></li></a>
+                    <a href="information.html"  style="padding:0;margin:0;" onfocus="blur()"><li class="col-md-3" style="width: 25%;"><img src="images/info_index.png" class="footer_images_1" /><p>行情资讯</p></li></a>
+                   <a href="investment.html"  style="padding:0;margin:0;" onfocus="blur()"><li class="col-md-3" style="width: 25%;"><img src="images/invest_index.png" class="footer_images_1" /><p>我要投资</p></li></a>
+                    <a href="more.html"  style="padding:0;margin:0;" onfocus="blur()"><li class="col-md-3" style="width: 25%;"><img src="images/more_index.png" class="footer_images_1" /><p>更多</p></li></a>
+                    <!-- <li class="col-md-3" style="width: 25%;"><a href="construction.html"><img src="images/more3.png" class="footer_images_1"/><h4>更多</h4></a></li> -->
+                </ul>
+             </div>
+  <div class="money_not">余额不足</div>
+  <!--背景阴影图层-->
+  <div class="bgc"></div>
+  <!--loading图层-->
+  <div class="loading">
+    <img src="images/loading.gif">
+    <p>加载中...</p>
+  </div>
+  <div class="pay_password">
+      <div class="container">
+          <div class="row">
+            <div class="col-md-12 pay_password_title">输入支付密码</div>
+            <div class="col-md-12">
+                <from>
+                  <div class="pay_password_input">
+                    <span>交易密码</span>
+                    <input class="password1" type="password" placeholder="请输入旧密码"  >
+                  </div>
+                  <div class="pay_password_buttun">
+                    <button type="button"  class="cancle_button" style="margin-right: 1.5rem;background-color:#bfbfbf;">取消</button>
+                    <button type="submit"  class="sure_button">确定</button>
+                  </div>
+                </from>
+            </div>  
+          </div>
+          <div class="forget_password">
+              <a href="find_trade_password.html" style="color: #f5a002;font-size:1rem;">忘记密码</a>
+          </div>
+      </div> 
+  </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        $(function() { 
+            $('.sure').attr("disabled", true);
+            $(".bgc").css("height",$(document).height()); 
+            // var password1 = $('.password1').val();            
+        });
+        /*全部选项都填好了button才可以点击*/
+        function button_change (event) {
+            var password1 = $('.password1').val(); 
+            if(password1=="")
+            {
+              $('.button_1').attr("disabled", "disabled");
+            }else{
+              $('.button_1').attr("disabled", false);
+              $(".button_1").css("background-color","#f5a002");
+            }
+        };
+        function button_change1 (event) {
+            var password1 = $('.password3').val();  
+            if(password1=="")
+            {
+              $('.button_2').attr("disabled", "disabled");
+            }else{
+              $('.button_2').attr("disabled", false);
+              $(".button_2").css("background-color","#f5a002");
+            }
+        };
+        /*选择付款方式*/
+        // $(".choose_way").click(function(){
+        //     $(this).parent(".choose_pay").find("li").find(".choose").attr("src","images/choose.png");
+        //     $(this).find(".choose").attr("src","images/choose_1.png");
+        // });
+        /*关闭支付框*/
+        $(".cancle_button").click(function(){
+            $(".bgc").css("display","none");
+            $(".pay_password").css("display","none");
+        });
+    </script>
+  </body>
+</html>
