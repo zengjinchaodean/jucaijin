@@ -1,0 +1,147 @@
+body{
+	font-family: "Microsoft YaHei";
+	background-color: #f3f3f3;
+	padding-bottom: 4rem;
+	overflow-x: hidden;
+}
+.check_button{
+	position: absolute;
+	right: 0;
+	top: 0;
+	height:4rem;
+	width: 20%;
+	font-size:1.2rem; 
+	line-height: 4rem;
+	text-align: center;
+	background-color: #D86F09;
+	color: #fff;
+	border:0px;
+}
+.my_bill_time{
+	height:4rem;
+	line-height: 4rem;
+	text-align: center;
+	color: #fff;
+	background-color: #f57a02;
+	width: 82%;
+    border: 0px;
+    font-size: 1.8rem;
+}
+::-webkit-input-placeholder{
+	color: #fff;
+}
+.bill_time_number{
+	font-size: 2rem;
+}
+.bill_time_con{
+	font-size: 1.4rem;
+	margin-right: 1rem;
+}
+.bill_info{
+	height: 4.5rem;
+	line-height: 4.5rem;
+	font-size: 1.4rem;
+	color: #595959;
+	background-color: #fffefe;	
+	border-bottom:1px solid #e6e6e6;
+}
+.bill_info_title{
+
+}
+.bill_info_price{
+	float: right;
+}
+.bgc{
+    position: fixed;
+    display: none;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    font-weight: bold;
+    background-color: #000;
+    -webkit-opacity:0.5;
+    opacity:0.5;
+    z-index: 990;
+}
+.pop {
+    position: absolute;
+    display: none;
+    top: 18%;
+    width: 100%;
+    height: 100%;
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #3c3c3c;
+    -webkit-opacity: 1;
+    opacity: 1;
+    text-align: center;
+    z-index: 999;
+}
+.pop .dialog {
+    padding: 0;
+    height: 18rem;
+    width:  24rem;
+    height: 100%;
+    margin: 0 auto;
+    font-weight: normal;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    background-color: #fff;
+    -webkit-opacity: 1;
+    opacity: 1;
+    position: fixed;
+	top: 13%;
+	left: 50%;
+	margin-left: -12rem;
+	height: 19rem;
+}
+.click_sure{
+	display: inline-block;
+	padding-top: 1rem;
+	width: 49%;
+	padding-bottom: 1rem;
+	position: relative;
+	text-align: center;
+	color: #c78402;
+	font-size: 1.6rem;
+}
+button{
+	background-color: #fff;
+	border: 0;
+	width: 100%;
+	height: 100%;
+}
+.forget_sure{
+	display: inline-block;
+	padding-top: 1rem;
+	width: 46%;
+	height: 3.5rem;
+	padding-bottom: 1rem;
+	position: relative;
+	text-align: center;
+	color: #595959;
+	font-size: 1.6rem;
+	border-right: 1px solid #a2a2a2;
+}
+.border_dialog{
+	margin: 0;
+	border-bottom: 1px solid #a2a2a2;
+}
+.choose_day{
+	height: 12rem;
+	border-bottom:1px solid #a2a2a2;
+}
+.year,.month,.day{
+	display: inline-block;
+}
+.add_button,.minus_button{
+	width: 5.5rem;
+	height: 3rem;
+	line-height: 2.6rem;
+	font-size: 3rem;
+	border: 1px solid #bfbfbf;
+	background-color: #e4e4e4;
+}
+.year_time,.month_time,.day_time{
+	margin:1rem 0 1rem 0;
+}

@@ -1,0 +1,186 @@
+body{
+	font-family: "Microsoft YaHei";
+	background-color: #f3f3f3;
+	padding-bottom: 4rem;
+}
+.col-md-12{
+	padding: 0;
+	font-size: 1.4rem;
+	background-color: #fff;
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus{
+	color: #eb4848;
+	border:0;
+	border-bottom: 4px solid #eb4848;
+}
+.nav-tabs li{
+	width: 50%;
+	height: 100%;
+	text-align: center;
+}
+.nav-tabs{
+	background-color: #fff;
+}
+a{
+	padding:0;
+	font-size: 1.3rem;
+	white-space:nowrap;
+	color: #595959;
+	font-size: 1.6rem;
+}
+.sold{
+	margin:0 auto;
+	width: 90%;
+	margin-top: 2rem;
+	height: 4rem;
+	line-height: 4rem;
+	background-color: #fff;
+	border-bottom: 1px solid #e3e3e3;
+}
+.sold_number{
+	margin:0 auto;
+	width: 90%;
+	height: 4rem;
+	line-height: 4rem;
+	background-color: #fff;
+}
+.sure{
+        display: block;
+        margin: 0 auto;
+        position: relative;
+        width: 90%;
+        color: #fff;
+        font-size: 2rem;
+        border: 0;
+        height: 3.5rem;
+        top: 4rem;
+        line-height: 3.5rem;
+        -webkit-border-radius: 2px;
+        border-radius: 2px;
+        color: #fff;
+        text-align: center;
+        font-size: 1.8rem;
+}
+.sold_price{
+	display: inline-block;
+	margin-left: 3rem;
+}
+.sold_price_number{
+	font-size: 1.6rem;
+	color: #d18d0b;
+}
+input {
+    position: relative;
+    margin-left: 3rem;
+    height: 2rem;
+    width: 58%;
+    line-height: 1;
+    border: 0;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+    -webkit-appearance: none !important;
+}
+.new_password {
+    width: 90%;
+    font-size: 1.2rem;
+    border-bottom: 1px solid #e3e3e3;
+}	
+.sold_number span{
+	margin-left: 3rem;
+}
+.storage_body{
+	position: relative;
+	top: 2rem;
+}
+.sold_palce
+{
+	display: inline-block;
+	color: #b3b3b3;
+	width: 74%;
+}
+.warmming{
+	width: 2rem;
+	position: absolute;
+	top: 14.6rem;
+	right: 2rem;
+}
+.bgc{
+    position: absolute;
+    display: none;
+    top: 0;
+    width: 100%;
+/*  height: 100%;*/
+    font-weight: bold;
+    background-color: #000;
+    -webkit-opacity:0.5;
+    opacity:0.5;
+    z-index: 990;
+}
+.pop {
+    position: absolute;
+    display: none;
+    top: 30%;
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #3c3c3c;
+    -webkit-opacity: 1;
+    opacity: 1;
+    text-align: center;
+    z-index: 999;
+}
+.pop .dialog {
+    position: relative;
+    padding: 0;
+    width: 80%;
+    margin: 0 auto;
+    top: 30%;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    background-color: #fff;
+    -webkit-opacity: 1;
+    opacity: 1;
+}
+.click_sure{
+	display: inline-block;
+	padding-top: 1rem;
+	width: 49%;
+	padding-bottom: 1rem;
+	position: relative;
+	text-align: center;
+	color: #edc834;
+	font-size: 1.6rem;
+}
+.choose_bank_title {
+    position: relative;
+    text-align: center;
+}
+.choose_card {
+    position: absolute;
+    display: none;
+    width: 100%;
+    bottom: 0;
+    z-index: 991;
+    background-color: #e6e6e6;
+}
+.card_list {
+    border-bottom: 1px solid #e6e6e6;
+    margin: 0 15px 0 15px;
+    padding: 0;
+    height: 3rem;
+    line-height: 3rem;
+}
+.choose_card img {
+    width: 1rem;
+    float: left;
+    position: relative;
+    left: 2rem;
+    top: 2rem;
+}
+.choose_card .col-md-12{
+	border-top: none;
+    height: 4.5rem;
+    line-height: 4.5rem;
+    font-size: 1.6rem;
+    background-color: #fff;
+}

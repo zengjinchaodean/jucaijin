@@ -1,0 +1,27 @@
+
+.navbar-fixed-bottom > a li {
+        position: relative;
+        display: block;
+        float: left;
+        text-align: center;
+        margin-top: 0.8rem;
+}
+.navbar-fixed-bottom ul{
+	margin: 0;
+}
+.navbar-fixed-bottom img{
+		width: 2rem;
+}
+.navbar-fixed-bottom li p{
+	font-size: 1rem;
+	color: #b3b3b3;
+	width: 100%;
+}
+a{
+	width: 100%;
+	padding: 0;
+
+}
+.bgf8{
+	border-top:1px solid #dedede;
+}

@@ -1,0 +1,242 @@
+body{
+	font-family: "Microsoft YaHei";
+	background-color: #e6e6e6;
+	padding-bottom: 4rem;
+	overflow-x: hidden; 
+}
+ .container{
+	margin-top: 1rem;
+	border-bottom:1px solid #e6e6e6;
+	border-top:1px solid #e6e6e6;
+}
+.choose_card_number .col-md-12{
+	height: 4.5rem;
+	line-height: 4.5rem;
+	font-size: 1.6rem;
+	background-color: #fff;
+}
+.choose_card_number .col-md-12:nth-child(1){
+	border-bottom:1px solid #e6e6e6;
+}
+.col-md-12>span{
+	color: 
+}
+.choose_bank{
+	margin-left: 2rem;
+	display: inline-block;
+	color: #b2b2b2;
+}
+.icon {
+    position: absolute;
+    font-size: 1.4rem;
+    right: 2rem;
+    top: 1.7rem;
+    color: #d0caca;
+}
+input {
+    position: relative;
+    margin-left: 2rem;
+    height: 2rem;
+    width: 72%;
+    line-height: 1.2;
+    border: 0;
+}
+.sure {
+    display: block;
+    margin: 5rem auto 0;
+    width: 90%;
+    color: #fff;
+    font-size: 2rem;
+    background-color: #bfbfbf;
+    border: 0;
+    position: relative;
+  top: 4rem;
+  height: 3.5rem;
+  line-height: 3.5rem;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  color: #fff;
+  text-align: center;
+  font-size: 1.8rem;
+}
+.bgc{
+    position: absolute;
+    display: none;
+    top: 0;
+    width: 100%;
+/*  height: 100%;*/
+    font-weight: bold;
+    background-color: #000;
+    -webkit-opacity:0.5;
+    opacity:0.5;
+    z-index: 990;
+}
+.my_total_assets_list_flag {
+    float: right;
+    padding: 5px 20px 5px 0;
+    font-size: 1rem;
+    color: #c3c3c3;
+}
+.my_total_assets_list_flag img {
+    position: relative;
+    top: -2px;
+    width: 1rem;
+}
+.choose_card{
+    position: absolute;
+    display: none;
+    width: 100%;
+    bottom: 0;
+    z-index: 991;
+    background-color: #e6e6e6;
+}
+.choose_card img{
+    width: 2rem;
+}
+.choose_bank_title{
+    position: relative;
+    text-align: center;
+}
+.choose_bank_title img{
+    position: absolute;
+    left: 1rem;
+    top: 1rem;
+}
+.card_list{
+    border-bottom: 1px solid #e6e6e6;
+    margin: 0 15px 0 15px;
+    padding:0;
+}
+.card_list img{
+    margin: 0 1rem;
+}
+.card_number{
+	font-size: 1rem;
+}
+.pay_password{
+	display: none;
+	position: absolute;
+	top: 14%;
+	width: 100%;
+	height: 16rem;
+	text-align: center;
+	background-color: #f3f3f3;
+	z-index: 999;
+}
+.pay_password .col-md-12{
+	background-color: #f3f3f3;
+}
+.pay_password_title{
+	padding-top: 1rem;
+	padding-bottom: 2rem;
+	font-size: 1.6rem;
+}
+.pay_password_input{
+	background-color: #fff;
+    margin: 0 auto;
+    width: 80%;
+    border-radius: 3px;
+    font-size: 1.2rem;
+    height: 3rem;
+    line-height: 3rem;
+    margin-bottom: 1rem;
+}
+.pay_password_input input{
+	position: relative;
+	margin-left: 0.5rem;
+	height: 2rem;
+	width: 59%;
+	line-height: 2rem;
+	border: 0;
+}
+.pay_password_buttun button{
+	display: inline-block;
+	height: 3rem;
+	font-size: 1rem;
+	margin-top: 1rem;
+	width: 36%;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+}
+.sure_button{
+	color: #fff;
+	background-color: #f5a002;
+}
+button {
+    display: block;
+    border: 0;
+    background-color: #bfbfbf;
+}
+.pay_password .container{
+	margin-top: 0rem;
+	border-bottom: none;
+	border-top: none;
+}
+.pop {
+    position: absolute;
+    display: none;
+    top: 30%;
+    width: 100%;
+    height: 100%;
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #3c3c3c;
+    -webkit-opacity: 1;
+    opacity: 1;
+    text-align: center;
+}
+.pop .dialog {
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    top: 30%;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    background-color: #fff;
+    -webkit-opacity: 1;
+    opacity: 1;
+}
+.click_sure{
+	display: inline-block;
+	padding-top: 1rem;
+	width: 49%;
+	padding-bottom: 1rem;
+	position: relative;
+	text-align: center;
+	color: #edc834;
+	font-size: 1.6rem;
+}
+.forget_sure{
+	display: inline-block;
+	padding-top: 1rem;
+	width: 49%;
+	padding-bottom: 1rem;
+	position: relative;
+	text-align: center;
+	color: #000;
+	font-size: 1.6rem;
+	border-right: 1px solid #a2a2a2;
+}
+.border_dialog{
+	border-bottom: 1px solid #a2a2a2;
+}
+.explain{
+    position: absolute;
+    right: 1rem;
+    top: 12rem;
+    font-size: 1.2rem;
+}
+.explain>a{
+    color: #f4ac22;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+    -webkit-appearance: none !important;
+    margin: 0; 
+}
+.forget_password{
+    position: absolute;
+    bottom: 0.5rem;
+    right: 1rem;
+    font-size: 1.2rem;   
+}
