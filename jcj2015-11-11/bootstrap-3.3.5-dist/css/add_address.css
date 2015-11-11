@@ -1,0 +1,227 @@
+body{
+	font-family: "Microsoft YaHei";
+	background-color: #fff;
+	padding-bottom: 4rem;
+}
+.change_password{
+	position: relative;
+	height: 30rem;
+    margin-top: 1rem;
+    /*border-top: 1px solid #e6e6e6;*/
+    font-size: 1.4rem;
+    background-color: #fff;
+}
+.change_password .col-md-12{
+	padding: 0;
+	margin: 0 auto;
+	height: 4rem;
+	width: 90% ;
+	line-height: 4rem;
+	background-color: #fff;
+}
+input{
+	position: relative;
+    float: right;
+    top: 1rem;
+	height: 2rem;
+	line-height: 1.2;
+	border:0;
+}
+.old_password{
+	width: 80%;
+	border-bottom: 1px solid #d9d9d9;
+}
+.new_password{
+	width: 80%;
+	border-bottom: 1px solid #d9d9d9;
+}
+.sure{
+        position: relative;
+        top: 4rem;
+        height: 3.5rem;
+        line-height: 3.5rem;
+        -webkit-border-radius: 2px;
+        border-radius: 2px;
+        color: #fff;
+        text-align: center;
+        font-size: 1.8rem;
+        width: 100%;
+	
+}
+button{
+	display: block;
+	border:0;
+}
+.add_address_list{
+	position: relative;
+	margin-top: 0.5rem;
+	height: 12rem;
+	font-size: 1rem;
+	background-color: #fff;
+	border-top: 1px solid #ededed;
+	border-bottom: 1px solid #ededed;
+}
+.add_address_list1{
+	position: relative;
+	overflow: hidden;
+	height: 8rem;
+	margin-top: 1.5rem;
+	font-size: 1rem;
+	background-color: #fff;
+}
+.add_address_listt_title{
+	height: 4rem;
+	line-height: 5rem;
+	font-size: 1.4rem;
+	color: #1a1a1a;
+	border-bottom: 1px solid #e3e3e3;
+}
+.add_address_list p{
+	line-height: 2rem;
+}
+.add_address_list_phone{
+	float: right;
+}
+.add_card {
+    position: relative;
+    margin: 0 auto;
+    width: 24rem;
+    background-color: #fff;
+    border: 1px solid #fff;
+}
+.add_card_info {
+    position: relative;
+    display: inline-block;
+    left: 50%;
+    font-size: 1.6rem;
+    margin-left: -5.5rem;
+	padding: 1.5rem 0;}
+.add_card_info img {
+    width: 5rem;
+}
+a{
+	color: #595959;
+}
+.bgc{
+    position: absolute;
+    display: none;
+    top: 0;
+    width: 100%;
+/*  height: 100%;*/
+    font-weight: bold;
+    background-color: #000;
+    -webkit-opacity:0.2;
+    opacity:0.2;
+    z-index: 990;
+}
+.del{
+	display: none;
+	position: absolute;
+	height: 11rem;
+	width: 100%;
+	bottom: 0;
+	z-index: 999;
+	background-color: #393939;
+}
+.delete{
+	float: none;
+	margin: 0 auto;
+	margin-top: 1rem;
+	background-color: #f5a002;
+	width: 80%;
+	height: 4rem;
+	text-align: center;
+	font-size: 1.6rem;	
+	line-height: 4rem;
+	color: #fff;
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+}
+.delete_white{
+	float: none;
+	margin: 0 auto;
+	margin-top: 1rem;
+	background-color: #fff;
+	color: #595959;
+	width: 80%;
+	height: 4rem;
+	text-align: center;
+	font-size: 1.6rem;	
+	line-height: 4rem;
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+}
+.edit{
+	position: absolute;
+	z-index: 999;
+}
+.text_area_address{
+float: right;
+        top: 8px;
+        width: 16rem;
+        border: 0px;
+        position: relative;
+        right: 1rem;
+        font-size: 1.4rem;
+        resize: none;
+}
+.choose_address{
+	position: absolute;
+	width: 100%;
+	height: 3rem;
+	line-height: 2.8rem;
+	border-top:1px solid #e3e3e3;
+	left: 0;
+	bottom: 0;
+	color: #8c8c8c;
+}
+.choose_address_function{
+	float: right;
+}
+.choose_address_del{
+	margin:0 15px 0;
+}
+.choose_address_images img{
+	width: 1.8rem;
+	top: -0.2rem;
+	position: relative;
+	left: 2rem;
+}
+.choose_address_images_title{
+	position: relative;
+	left: 2.6rem;
+}
+.address_body{
+	margin-bottom: 2rem;
+}
+.add_new_address{
+	width: 100%;
+	height: 5.4rem;
+	position: fixed;
+	bottom: 0px;
+	background-color: #fff;
+	border-top: 1px solid #e6e6e6;
+}
+.add_new_address_body{
+	background-color: #f4ac22;
+	margin: -0.5rem auto 0;
+	height: 3.5rem;
+	line-height: 3.5rem;
+	width: 25rem;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	color: #fff;
+	font-size: 1.8rem;
+	text-align: center;
+}
+@media screen and (min-width:300px) and (max-width:330px){
+  .text_area_address{
+  	float:right;
+  	width:14rem;
+  	border:0px;
+  	position:relative;
+  	right:0rem;
+  	font-size:1.4rem;
+  	resize: none;
+  }
+}

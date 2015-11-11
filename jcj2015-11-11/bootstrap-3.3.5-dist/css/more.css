@@ -1,0 +1,144 @@
+body{
+	font-family: "Microsoft YaHei";
+	background-color: #e6e6e6;
+	padding-bottom: 4rem;
+	overflow-x: hidden; 
+}
+.container{
+	margin:0;
+	width: 100%;
+}
+.more_head{
+	background-color: #fff;
+	height: 3.8rem;
+	line-height: 3.8rem;
+	text-align: center;
+	font-size: 1.6rem;
+	color: #595959;
+	border-bottom: 1px solid #e6e6e6;
+}
+.more_head img{
+	width: 1.6rem;
+	position: relative;
+	top:-0.2rem;
+}
+.more_function{
+	position: relative;
+	margin-top: 1rem;
+	border-top: 1px solid #e6e6e6;
+	font-size: 1.4rem;
+}
+.more_function .col-md-12{
+	background-color: #fff;
+	border-bottom: 1px solid #e6e6e6;
+	height: 4rem;
+	line-height: 4rem;
+}
+.more_function img{
+	position: relative;
+	top:-0.1rem;
+	width: 2rem;
+	margin-right: 1rem;
+}
+.icon{
+	position: absolute;
+	font-size: 1.4rem;
+	right: 2rem;
+	top:1.3rem;
+	color:#d0caca;
+}
+a{
+	color: #595959;
+}
+.out_button{
+	position: relative;
+	top: 1.6rem;
+	color: #fa5c61;
+	background-color: #fff;
+	width: 100%;
+	height: 4rem;
+	border:1px solid #d2d2d2;
+	-moz-border-radius: 0.2rem;
+	-webkit-border-radius: 0.2rem;
+	border-radius: 0.2rem;
+	text-align: center;
+	line-height: 4rem;
+	font-size: 1.6rem;
+	font-weight: bold;
+}
+.nav_bottom{
+	background-color: #fff;
+}
+.nav_bottom li{
+	display: inline-block;
+	text-align: center;
+	width: 24%;
+	padding:0;
+}
+.bgc{
+    position: fixed;
+    display: none;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    font-weight: bold;
+    background-color: #000;
+    -webkit-opacity:0.2;
+    opacity:0.2;
+    z-index: 990;
+}
+.pop {
+    position: absolute;
+    display: none;
+    top: 30%;
+    width: 100%;
+    height: 100%;
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #3c3c3c;
+    -webkit-opacity: 1;
+    opacity: 1;
+    text-align: center;
+    z-index: 999;
+}
+.pop .dialog {
+    position: relative;
+    padding: 0;
+    width: 80%;
+    margin: 0 auto;
+    top: 30%;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    background-color: #fff;
+    -webkit-opacity: 1;
+    opacity: 1;
+}
+.click_sure{
+	display: inline-block;
+	padding-top: 1rem;
+	width: 49%;
+	padding-bottom: 1rem;
+	position: relative;
+	text-align: center;
+	color: #edc834;
+	font-size: 1.6rem;
+}
+.forget_sure{
+	display: inline-block;
+	padding-top: 1rem;
+	width: 49%;
+	padding-bottom: 1rem;
+	position: relative;
+	text-align: center;
+	color: #595959;
+	font-size: 1.6rem;
+	border-right: 1px solid #a2a2a2;
+}
+.border_dialog span{
+	color: #595959;
+}
+.border_dialog{
+	margin: 0;
+	padding: 1rem;
+	border-bottom: 1px solid #a2a2a2;
+}

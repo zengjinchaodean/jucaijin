@@ -1,0 +1,67 @@
+body{
+	font-family: "Microsoft YaHei";
+	background-color: #fff;
+	padding-bottom: 4rem;
+}
+.explain_body{
+	width: 100%;
+	padding: 10px;
+}
+.explain_body_title{
+	font-size: 1.4rem;
+	height: 36px;
+	line-height: 46px;
+	width: 100%;
+	text-align: center;
+}
+.explain_body_small_title{
+	font-size: 1.2rem;
+	height: 36px;
+	line-height: 36px;
+	width: 100%;
+	text-align: center;
+}
+.buy_in_content_table{
+	width: 100%;
+	color: #595959;
+	font-size: 12px;
+	border:1px solid #e3e3e3;
+}
+.buy_in_content_table th,.buy_in_content_regulary_table th{
+	background-color: #feeed0;
+	text-align: center;
+}
+.buy_in_content_table td,.buy_in_content_regulary_table td{
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+}
+.buy_in_buyday{
+	height: 44px;
+	width: 150px;
+}
+.buy_in_right_bottom_border{
+	border-right: 1px solid #e3e3e3;
+	border-bottom: 1px solid #e3e3e3; 
+}
+.buy_in_bottom_border{
+	border-bottom: 1px solid #e3e3e3; 
+}
+.buy_in_content1{
+	font-size: 13px;
+	margin:16px 4px;
+}
+.buy_in_content_bottom_border{
+padding-bottom:30px;
+border-bottom:1px solid #ababab; 
+}
+.buy_in_content_regulary_table{
+	width: 100%;
+	        color: #595959;
+	        font-size: 12px;
+	        border: 1px solid #e3e3e3;
+}
+.buy_in_regulary_buyday{
+	width: 72px;
+	height: 48px;
+}
