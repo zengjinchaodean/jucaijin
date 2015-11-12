@@ -1,0 +1,69 @@
+body{
+	font-family: "Microsoft YaHei";
+	background-color: #e9e9e9;
+	padding-bottom: 4rem;
+	font-size: 1.2rem;
+}
+.change{
+	height: 3.6rem;
+	        background-color: #fff;
+	        border-top: 1px solid #D88E0D;
+	        margin-bottom: -2px;
+}
+.change_button{
+	height: 3.4rem;
+	width: 100%;
+	text-align: center;
+	line-height: 3.4rem;
+	font-size: 1.6rem;
+	color: #fff;
+	background-color: #f4ac22;
+}
+.product_head{
+	background-color: #fff;
+	border-bottom: 1px solid #ededed;
+}
+.product_head img{
+	width: 100%;
+}
+.product_head_content{
+	color: #595959;
+	height: 3.5rem;
+	line-height: 3.5rem;
+	border-bottom: 1px solid #ededed;
+	border-top:1px solid #ededed;
+}
+.product_body{
+	background-color: #fff;
+	margin-top: 1rem;
+	border-bottom: 1px solid #ededed;
+	border-top:1px solid #ededed;
+}
+.popular_products_title {
+        height: 3.5rem;
+        font-size: 1.6rem;
+        color: #f4ac22;
+        line-height: 3.5rem;
+}
+.popular_products_title_block {
+        display: inline-block;
+        height: 1.4rem;
+        width: 0.5rem;
+        background-color: #f4ac22;
+        position: relative;
+        top: 2px;
+        margin: 0 0.5rem 0 0rem;
+}
+ul{
+	list-style: none;
+	padding: 0;
+	color: #8c8c8c;
+}
+li{
+	padding: 0.5rem 0 0.5rem 0; 
+}
+.product_body_info img{
+	width: 100%;
+	background-color: #fff;
+	padding: 1rem;
+}
