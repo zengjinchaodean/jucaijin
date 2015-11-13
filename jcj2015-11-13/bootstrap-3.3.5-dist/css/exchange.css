@@ -1,0 +1,255 @@
+body{
+	font-family: "Microsoft YaHei";
+	background-color: #e6e6e6;
+	padding-bottom: 4rem;
+}
+.container{
+	padding:0;
+
+}
+.row{
+	margin-right: 0;
+}
+.col-md-12{
+	padding-right: 0;
+	margin-bottom: 1rem;
+}
+.product{
+	position: relative;
+	height: 13.6rem;
+	overflow: hidden;
+	background-color: #fff;
+}
+.product .product_title{
+	position: relative;
+	padding: 1rem 0 0.5rem 0;
+    margin-left: 1rem;
+    margin-bottom: 0.5rem;
+	display: block;
+	width: 90%;
+	font-size: 1.8rem;
+	color: #595959;
+	border-bottom:1px solid #e0e0e0;
+}
+.product img{
+	float: left;
+	width: 8rem;
+	margin-left: 1rem;
+}
+ul{
+	float: left;
+	margin-left: 1rem;
+	padding:0;
+	list-style: none;
+	overflow: hidden;
+}
+li{
+	margin-bottom: 1.4rem;
+	font-size: 1rem;
+	color:#8c8c8c;
+}
+.address{
+	height: 7.6rem;
+	background-image: url('../../images/exchange_bg-address.png');
+	-moz-background-size:100% 100%;
+	-webkit-background-size:100% 100%;
+	background-size:100% 100%;
+	padding-left: 0;
+	margin-left: 15px;
+}
+.address div{
+	        padding: 1rem 1rem 0rem 2rem;
+        color: #595959;
+}
+.address_per{
+	
+}
+.address_info{
+	font-size: 1.4rem;
+}
+.change_number{
+	background-color: #fff;
+	border-top: 1px solid #e6e6e6;	
+	overflow: hidden;
+	font-size: 1.2rem;
+}
+.change_number_block{
+	float: right;
+}
+.change_number_block div{
+	display: inline-block;
+	margin:1rem;
+	width: 3rem;
+	height:2rem;
+	text-align: center;
+}
+.change_number_block img{	
+	width: 2.7rem;
+	height: 2.3rem;
+}
+.product li{
+	font-size: 1.2rem;
+}
+.total{
+	position: fixed;
+	width: 100%;
+	bottom: 0px;
+	border-top: 1px solid #e6e6e6;
+	background-color: #fff;
+}
+.total_block{
+	float: right;
+	font-size: 1rem;
+}
+.sure_button{
+	display: inline-block;
+	height: 4rem;
+	width: 6rem;
+	color: #fff;
+	font-size: 1.6rem;
+	line-height: 4rem;
+	text-align: center;
+	background-color: #ec5b28;
+}
+.navbar-default{
+	background-color: #e6e6e6;
+}
+.total_number{
+	font-size: 1.4rem;
+}
+.address_check{
+	position: absolute;
+	right: 0rem;
+	top: 1rem;
+	font-size: 2rem;
+	font-weight: 800;
+}
+.total_have_number{
+	float: left;
+	display: inline-block;
+}
+.total_have_number ul,.total_need_price ul{
+	margin: 0;
+}
+.total_have_number li,.total_need_price li{
+	margin: 0;
+}
+.total_price{
+	color: #404040;
+	font-weight: 800;
+}
+.total_price1{
+	color: #ec5b28;
+	font-weight: 800;
+}
+.total_have_number_ul li{
+	padding: 6px 6px 0 10px;
+}
+.total_need_price{
+	float: left;
+	display: inline-block;
+}
+.total_need_price_title{
+	border-left: 1px dashed #808080;
+	padding-left: 10px;
+}
+.bgc{
+	position: fixed;
+	display: none;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+	-webkit-opacity:0.2;
+	opacity:0.2;
+	z-index: 990;
+}
+.loading{
+	display: none;
+	position: absolute;
+	top: 24%;
+	left: 50%;
+	line-height: 4rem;
+	margin-left: -4rem;
+	background-color: #6b6b6b;
+	color: #fff;
+	height: 8rem;
+	width: 8rem;
+	font-size: 1.2rem;
+	text-align: center;
+	-webkit-border-radius: 5px;	
+	border-radius: 5px;
+	z-index: 999;
+}
+.loading img{
+	width: 3rem;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+    -webkit-appearance: none !important;
+}
+.pay_password{
+	display: none;
+	position: absolute;
+	top: 24%;
+	width: 100%;
+	height: 14rem;
+	text-align: center;
+	background-color: #f3f3f3;
+	z-index: 999;
+}
+.pay_password .col-md-12{
+	background-color: #f3f3f3;
+}
+.pay_password_title{
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	margin-bottom: 0px;
+	font-size: 1.6rem;
+}
+.pay_password_input{
+	background-color: #fff;
+	margin: 0 auto;
+	width: 80%;
+	border-radius: 3px;
+	font-size: 1.2rem;
+	height: 3rem;
+	    line-height: 3rem;
+}
+.pay_password_input input{
+	position: relative;
+	margin-left: 0.5rem;
+	height: 2rem;
+	width: 59%;
+	line-height: 2rem;
+	border: 0;
+}
+.pay_password_buttun button{
+	display: inline-block;
+	height: 3rem;
+	line-height: 1;
+	font-size: 1rem;
+	margin-top: 1rem;
+	width: 35%;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	border: 0px;
+}
+.sure_button{
+	color: #fff;
+	background-color: #f5a002;
+}
+.forget_password{
+    position: absolute;
+    bottom: 0.5rem;
+    right: 1rem;
+    font-size: 1.2rem;   
+}
+.echange_more_address{
+	height: 1.5rem;
+}
+.exchange_phone{
+	float: right;
+	position: relative;
+	right: 20px;
+}

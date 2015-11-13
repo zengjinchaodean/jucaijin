@@ -1,0 +1,108 @@
+body{
+	font-family: "Microsoft YaHei";
+	background-color: #e6e6e6;
+	padding-bottom: 4rem;
+}
+.container{
+	padding:0;
+
+}
+.row{
+	margin-right: 0;
+}
+.col-md-12{
+	padding-right: 0;
+	margin-bottom: 1rem;
+}
+.product{
+	position: relative;
+	height: 13.6rem;
+	overflow: hidden;
+	background-color: #fff;
+}
+.product .product_title{
+	position: relative;
+	padding: 1rem 0 0.5rem 0;
+    margin-left: 1rem;
+    margin-bottom: 0.5rem;
+	display: block;
+	width: 90%;
+	font-size: 1.5rem;
+	color: #595959;
+	border-bottom:1px solid #e0e0e0;
+}
+.product img{
+	float: left;
+	width: 8rem;
+	margin-left: 1rem;
+}
+ul{
+	float: left;
+	margin-left: 1rem;
+	padding:0;
+	list-style: none;
+	overflow: hidden;
+}
+li{
+	margin-bottom: 0.8rem;
+	font-size: 1rem;
+	color:#8c8c8c;
+}
+.address div {
+    padding: 0.5rem 1rem 0.5rem 2rem;
+    color: #fff;
+}
+.address_per {
+    font-size: 1.6rem;
+}
+.address {
+    height: 7.6rem;
+    background-color: #8e98a9;
+}
+.content_list_bankname{
+	margin-left: 2rem;
+	color: #8c8c8c;
+}
+.content_list{
+	padding-left: 3rem;
+	color: #000;
+	font-size: 1.2rem;
+}
+.content{
+	padding-top: 1rem;
+	background-color: #fff;
+}
+.order_message{
+	margin-top: 1rem;
+	background-color: #fff;
+	color: #000;	
+}
+.order_message_statues{
+	margin-top: 1rem;
+	padding-left: 3rem;
+	padding-bottom: 1rem;
+	font-size: 1.2rem;
+	border-bottom: 1px solid #e6e6e6;
+}
+.circle{
+	display: inline-block;
+	margin-right: 0.5rem;
+	width: 0.5rem;
+	height: 0.5rem;
+	background-color: #b2b2b2;
+	border-radius: 1rem;
+}
+.order_message_info_block{
+	margin-bottom: 1rem;
+	font-size: 1.2rem;
+}
+.order_message_info{
+	margin-left: 2rem;
+	font-size: 1.6rem;
+}
+.order_message_info div:nth-child(1)>.circle{
+	background-color: #15e437;
+}
+.order_message_info div:nth-child(1){
+	color: #0bb527;
+}
