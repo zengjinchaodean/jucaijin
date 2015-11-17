@@ -1,0 +1,44 @@
+body{
+	font-family: "Microsoft YaHei";
+	background-color: #f3f3f3;
+	padding-bottom: 4rem;
+}
+.content_list span{
+	color: #8c8c8c;
+}
+.content{
+	margin-top: 1rem;
+	font-size: 1.6rem;
+}
+.content_list_bankname{
+	margin-left: 2rem;
+	margin-right: 0.2rem;
+}
+.content_list{
+	position: relative;
+	height: 4rem;
+	line-height: 4rem;
+	font-size: 1.4rem;
+}
+.producrt_info{
+	margin-top: 3rem;
+	font-size: 1.6rem;
+	        margin-bottom: 3rem;
+}
+.producrt_info_name_block{
+	float: right;
+	position: relative;
+    font-size: 1.4rem;
+}
+.producrt_info_name{
+        position: relative;
+        height: 4rem;
+        line-height: 4rem;
+        font-size: 1.4rem;
+}
+.number{
+
+}
+.col-md-12{
+	border-bottom: 1px solid #DEDDDD;
+}
