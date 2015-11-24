@@ -1,0 +1,72 @@
+body{
+	font-family: "Microsoft YaHei";
+	background-color: #e6e6e6;
+	padding-bottom: 4rem;
+}
+.product_info{
+	position: relative;
+	margin-top: 0.5rem;
+	height: 10rem;
+	width: 100%;
+	background-color: #fff;
+}
+.investment_block_class a:nth-child(2) .product_info,.investment_block_class1 a:nth-child(2) .product_info{
+	margin-top: 0rem;
+}
+.investment_block_class_title{
+	color: #8c8c8c;
+	height: 3rem;
+	line-height: 3rem;
+	text-indent: 1rem;
+	        font-size: 1.4rem;
+	border-left: 2px solid #f06464;
+}
+.product_info_title{
+	display: block;
+	height: 4rem;
+	line-height: 4rem;
+	font-size: 1.4rem;
+	color: #595959;
+	border-bottom: 1px solid #e3e3e3;
+	font-weight: 700;
+}
+.product_info_flag{
+	position: absolute;
+	top: 0.2rem;
+	right: 0.2rem;
+	width: 4rem;
+}
+.product_info_introduction{
+	width: 100%;
+	font-size: 1.4rem;
+}
+.product_info_introduction th{
+	text-align: center;
+	font-size: 1.2rem;
+	color: #8c8c8c;
+	font-weight: normal;
+}
+.product_info_introduction tr{
+	text-align: center;
+	line-height: 2.6rem;
+	color: #595959;
+}
+.product_info_introduction_number{
+	color: #d18d0b;
+}
+.product_info_introduction_number span{
+	font-size: 1.8rem;
+	font-weight: normal;
+}
+.product_info_introduction tr th:nth-child(1){
+	text-align: left;
+}
+.product_info_introduction tr td:nth-child(1){
+	text-align: left;
+}
+.product_info_introduction tr th:nth-child(3){
+	text-align: right;
+}
+.product_info_introduction tr td:nth-child(3){
+	text-align: right;
+}

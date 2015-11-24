@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1.0, user-scalable=0">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>我的资产</title>
+
+    <!-- Bootstrap -->
+    <link href="bootstrap-3.3.5-dist/css/bootstrap.css" rel="stylesheet">
+    <link href="bootstrap-3.3.5-dist/css/my_assets.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <!--my_assets_tab start-->
+    <div class="my_assets_tab">
+
+      <!-- Nav tabs -->
+      <ul class="nav nav-tabs" role="tablist">
+          <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">总资产</a></li>
+
+          <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">我的持仓</a></li>
+          <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">我的定投</a></li>          
+          <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">我的交割</a></li>
+      </ul>
+
+      <!-- Tab panes -->
+      <div class="tab-content">
+          <!--总资产-->
+          <div role="tabpanel" class="tab-pane active" id="home">
+              <div class="my_assets_circle">
+                  <span class="assets_alltitle">总资产(元)</span>
+                  <p class="all_money">1003754.78</p>
+                  <div class="trade_details"><a href="trade_info.html">交易明细</a></div>
+              </div>   
+              <div class="container my_total_assets_list">
+                  <div class="row">
+                      <div class="col-md-12">
+                       我的钱包
+                       <span>59.00</span>
+                      </div>
+                      <div class="col-md-12">
+                       上期利息
+                       <span>9.00</span>
+                      </div>
+                      <div class="col-md-12">
+                       当日利息
+                       <span>3695.78</span>
+                      </div>
+                      <div class="col-md-12">
+                       持仓权益 
+                       <span>-0.00</span>
+                      </div>
+                      <div class="col-md-12">
+                       持仓成本  
+                       <span>13.94</span>
+                      </div>
+                      <div class="col-md-12">
+                       浮动盈亏 
+                       <span>2365</span>
+                      </div>
+                      <div class="col-md-12">
+                       平仓盈亏  
+                       <span>-8.50</span>
+                      </div>
+                      <div class="col-md-12">
+                       冻结资金 
+                       <span>0.00</span>
+                      </div>
+                      <div class="col-md-12">
+                       手续费  
+                       <span>6.94</span>
+                      </div>
+                      <div class="col-md-12">
+                       商品加工费  
+                       <span>6.94</span>
+                      </div>
+                      <div class="my_total_assets_list_flag">
+                        <img src="images/exclamation_mark.png">
+                        统一单位人民币
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <!--我的持仓-->
+          <div role="tabpanel" class="tab-pane" id="messages">
+              <div class="container">
+                  <div class="row">
+                      <div class="col-md-12 my_assets_list">
+                          <div class="my_assets_list_title">
+                            黄金
+                            <span class="my_assets_list_price">当前金价:260.00元/克</span>
+                          </div>
+                          <table class="my_assets_list_introduction">
+                            <tr>
+                              <th>
+                                  <span>数量(手)</span>
+                              </th>
+                              <th>成本(元)</th>
+                              <th>盈亏(元)</th>
+                            </tr>
+                            <tr>
+                              <td>200</td>
+                              <td>26.30</td>
+                              <td>-600</td>
+                            </tr>
+                          </table>
+                      </div>
+                      <div class="col-md-12 my_assets_list">
+                          <div class="my_assets_list_title">
+                            白银
+                            <span class="my_assets_list_price">当前银价:260.00元/克</span>
+                          </div>
+                          <table class="my_assets_list_introduction">
+                            <tr>
+                              <th>
+                                  <span>数量(手)</span>
+                              </th>
+                              <th>成本(元)</th>
+                              <th>盈亏(元)</th>
+                            </tr>
+                            <tr>
+                              <td>200</td>
+                              <td>26.30</td>
+                              <td>-600</td>
+                            </tr>
+                          </table>
+                      </div>
+                  </div>
+              </div> 
+              <nav class="navbar navbar-default navbar-fixed-bottom" style="min-height: 3.5rem;;background-color:#ffffff;">
+                <div class="container down_nav">
+<!--                    <ul style="border-top: 1px solid #efefef;">
+                     <a href="buy.html"><li>买入</li></a>
+                     <a href=""><li class="down_nav_li">买出</li></a>
+                     <a href=""><li style="        border-right: 1px solid #fff;">定投</li></a>
+                     <a href=""><li>提货</li></a>
+                   </ul> -->
+                   <table class="my_chicang_table">
+                     <tr>
+                       <td>
+                       <a href="buy.html">
+                          <span class="my_chicang_table_span">
+                            买入
+                          </span>
+                        </a>
+                       </td>
+                       <td>
+                       <a href="sold.html">
+                          <span class="my_chicang_table_span">
+                            卖出
+                          </span>
+                        </a>
+                       </td>
+                       <td>
+                       <a href="regular_buy.html">
+                          <span class="my_chicang_table_span">
+                            定投
+                          </span>
+                      </a>
+                       </td>
+                       <td>
+                       <a href="#">
+                          <span class="my_chicang_table_span">
+                            提货
+                          </span>
+                      </a>
+                       </td>
+                     </tr>
+                   </table>
+                </div>
+              </nav>
+          </div>
+          <!--我的定投-->
+          <div role="tabpanel" class="tab-pane" id="settings">
+              <div class="container">
+                  <div class="row">
+                      <div class="col-md-12 my_assets_list">
+                          <div class="my_assets_list_title">
+                            黄金定投三个月
+                            <div class="left_day">
+                              还剩<span>150</span>天
+                            </div>
+                          </div>
+                          <table class="my_assets_list_introduction fix">
+                            <tr>
+                              <th>
+                                  <span>数量(手)</span>
+                              </th>
+                              <th style="text-align:center;">成本(元)</th>
+                              <th>预计收益(元)</th>
+                            </tr>
+                            <tr>
+                              <td>200</td>
+                              <td style="text-align:center;">26.30</td>
+                              <td>-600</td>
+                            </tr>
+                          </table>
+                          <div class="choose_address">
+                            <span class="choose_address_images">
+                            </span>
+                            <span class="choose_address_function">
+                             交易日期：
+                                <span class="choose_address_del">2015-12-30</span>
+                            </span>
+                          </div>  
+                      </div>
+                  </div>
+              </div>   
+              <div class="my_assets_list_images">
+                  <img src="images/my_assets_image.png" />
+                  <p>还没有定投喔~</p>
+              </div>
+          </div> 
+        <!--我的提货-->
+        <div role="tabpanel" class="tab-pane" id="profile">
+            <div class="container product_pickup_container">
+                <div class="row">
+                  <div class="col-md-12 product_pickup">
+                      <div class="product">
+                          <span class="product_title">下单时间
+                          <span class="product_title_time">2015-10-10</span>
+                          <span class="product_title_time">09:36</span>
+                          </span>
+                          <img src="images/zhaojin.png">
+                          <ul>
+                            <li>招金标准金条&nbsp;10g</li>
+                            <li>数量：2</li>
+                            <li>状态：已完成</li>
+                          </ul>
+                      </div>
+                  </div>
+                  <div class="col-md-12 product_pickup">
+                      <div class="product">
+                          <span class="product_title">下单时间
+                          <span class="product_title_time">2015-10-10</span>
+                          <span class="product_title_time">09:36</span>
+                          </span>
+                          <img src="images/zhaojin.png">
+                          <ul>
+                            <li>招金标准金条&nbsp;10g</li>
+                            <li>数量：2</li>
+                            <li>状态：<span class="product_pickup_state1">未完成</span></li>
+                          </ul>
+                      </div>
+                  </div>
+                  
+                </div>
+            </div>
+        </div>
+      </div>
+     
+
+    </div>
+    <!--my_assets_tab end-->
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+      $('#myTabs a').click(function (e) {
+        e.preventDefault()
+        $(this).tab('show')
+      });
+      $(function(){
+        if($('.row').find('.fix').length==0){
+            $('.my_assets_list_images').css('display','block');
+            return true;
+          }
+      });
+    </script>
+  </body>
+</html>
