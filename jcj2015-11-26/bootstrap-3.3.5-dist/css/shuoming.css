@@ -1,0 +1,19 @@
+body{
+	overflow: auto;
+	font-family: "Microsoft YaHei";
+	background-color: #ffffff;
+	padding-bottom: 4rem;
+}
+.shuoming_body{
+	padding:2rem;
+}
+.shuoming_title{
+	font-size: 1.8rem;
+	margin-bottom: 1rem;
+	color: #262626;
+}
+.shuoming_content{
+	text-indent: 2rem;
+	font-size: 1.2rem;
+	color: #595959;
+}

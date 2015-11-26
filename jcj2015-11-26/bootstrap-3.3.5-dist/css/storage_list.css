@@ -1,0 +1,71 @@
+body{
+	background-color: #f0f0f0;
+	font-family: "Microsoft YaHei";
+}
+.more_function {
+        position: relative;
+        margin-top: 1rem;
+        border-top: 1px solid #e6e6e6;
+        font-size: 1.4rem;
+}
+.more_function .col-md-12 {
+        background-color: #fff;
+        border-bottom: 1px solid #e6e6e6;
+        height: 5rem;
+        line-height: 5rem;
+}
+a {
+        color: #595959;
+}
+.icon {
+        position: absolute;
+        font-size: 1.4rem;
+        right: 1rem;
+        top: 1.8rem;
+        color: #d0caca;
+}
+.storage_list_left{
+	height: 5rem;
+	display: inline-block;
+	width: 60%;
+}
+.storage_list_left_title{
+	height: 2.5rem;
+	line-height: 3.5rem;
+	font-size: 1.4rem;
+	color:#595959;
+	margin:0px;
+}
+.storage_list_left_time{
+height: 2.5rem;
+line-height: 2.5rem;
+	font-size: 1.2rem;
+	color: #a6a6a6;
+	margin:0px;
+}
+.storage_list_right{
+	float: right;
+		display: inline-block;
+	height: 5rem;
+	width: 22%;
+	margin-right: 1.2rem;
+}
+.storage_list_left_weight{
+	text-align: right;
+}
+.storage_list_left_state1{
+		font-size: 1.2rem;
+		height: 2.5rem;
+		line-height: 2.5rem;
+		color: #e33b00;
+		margin:0px;
+		text-align: right;
+}
+.storage_list_left_state2{
+		font-size: 1.2rem;
+		height: 2.5rem;
+		line-height: 2.5rem;
+		color: #a6a6a6;
+		margin:0px;
+		text-align: right;
+}
