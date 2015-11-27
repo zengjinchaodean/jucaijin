@@ -1,0 +1,53 @@
+body{
+	font-family: "Microsoft YaHei";
+	background-color: #fffefe;
+	padding-bottom: 4rem;
+	overflow-x: hidden; 
+}
+.trade_success_title{
+	margin-top: 8rem;
+	padding-left: 0;
+	padding-right: 0;
+	margin-left: 15px;
+	margin-right: 15px;
+	text-align: center;
+	padding-bottom: 2rem;
+	border-bottom: 1px solid #dbdbdb;
+}
+.trade_success_title img{
+	width: 8rem;
+}
+.trade_success_title p{
+	margin-top: 2rem;
+	font-size: 2rem;
+}
+.details_green{
+	margin-top: 2rem;
+	font-size: 1.6rem;
+}
+.details_green img{
+	width: 1.2rem;
+	margin-left: 1rem;
+	margin-right: 2rem;
+}
+.details_green span{
+	font-size: 1.2rem;
+	color: #3abe4e;
+}
+.details_green p{
+	margin-left: 4.6rem;
+	font-size: 1.2rem;
+	color: #8c8c8c;
+}
+.black span{
+	font-size: 1.2rem;
+	color: #000;
+}
+.gold{
+	color: #d38b00;	
+}
+.focuse{
+	margin-top: 2rem;
+	font-size: 1.2rem;
+	text-align: center;
+}

@@ -1,0 +1,243 @@
+﻿.bgc{
+    position: fixed;
+    display: none;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    font-weight: bold;
+    background-color: #000;
+    -webkit-opacity:0.3;
+    opacity:0.3;
+    z-index: 990;
+}
+a{
+	font-size: 1.8rem;
+
+}
+.pay_password{
+	display: none;
+	position: fixed;
+	top: 14%;
+	width: 100%;
+	height: 16rem;
+	text-align: center;
+	background-color: #f3f3f3;
+	z-index: 999;
+}
+.warmming{
+top: 0rem;
+        right: 0rem;
+        width: 1.5rem;
+        position: relative;
+}
+.storage_content{
+	color:#e6721c;
+
+	top: 15.4rem;
+	right: 1rem;
+}
+.pay_password .col-md-12{
+	background-color: #f3f3f3;
+}
+.pay_password_title{
+	padding-top: 1rem;
+	padding-bottom: 2rem;
+	font-size: 1.6rem;
+}
+.pay_password_input{
+	background-color: #fff;
+    margin: 0 auto;
+    width: 80%;
+    border-radius: 3px;
+    font-size: 1.2rem;
+    height: 3rem;
+    line-height: 3rem;
+    margin-bottom: 1rem;
+}
+.pay_password_input input{
+	position: relative;
+	margin-left: 0.5rem;
+	height: 2rem;
+	width: 59%;
+	line-height: 2rem;
+	border: 0;
+}
+.pay_password_buttun button{
+	display: inline-block;
+	height: 3rem;
+	line-height: 1;
+	font-size: 1rem;
+	margin-top: 1rem;
+	width: 35%;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	border: 0px;
+}
+.sure_button{
+	color: #fff;
+	background-color: #f5a002;
+}
+button {
+    display: block;
+    border: 0;
+    background-color: #bfbfbf;
+}
+.pay_password .container{
+	margin-top: 0rem;
+	border-bottom: none;
+	border-top: none;
+}
+.pop1 {
+    position: absolute;
+    z-index: 999;
+    display: none;
+    top: 30%;
+    width: 100%;
+    height: 100%;
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #3c3c3c;
+    -webkit-opacity: 1;
+    opacity: 1;
+    text-align: center;
+}
+.pop1 .dialog1 {
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    top: 30%;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    background-color: #fff;
+    -webkit-opacity: 1;
+    opacity: 1;
+}
+.pop {
+        position: fixed;
+        display: none;
+        top: 30%;
+        font-size: 1.6rem;
+        font-weight: bold;
+        color: #3c3c3c;
+        -webkit-opacity: 1;
+        opacity: 1;
+        text-align: center;
+        z-index: 999;
+}
+.click_sure1{
+	display: inline-block;
+	padding-top: 1rem;
+	width: 49%;
+	padding-bottom: 1rem;
+	position: relative;
+	text-align: center;
+	color: #edc834;
+	font-size: 1.6rem;
+}
+.forget_sure1{
+	display: inline-block;
+	padding-top: 1rem;
+	width: 49%;
+	padding-bottom: 1rem;
+	position: relative;
+	text-align: center;
+	color: #000;
+	font-size: 1.6rem;
+	border-right: 1px solid #a2a2a2;
+}
+.border_dialog1{
+	border-bottom: 1px solid #a2a2a2;
+}
+.forget_password{
+    position: absolute;
+    bottom: 0.5rem;
+    right: 1rem;
+    font-size: 1.2rem;   
+}
+.click_sure2{
+	display: inline-block;
+	padding-top: 0.5rem;
+	width: 49%;
+	padding-bottom: 1rem;
+	position: relative;
+	text-align: center;
+	color: #edc834;
+	font-size: 1.6rem;
+}
+.storage_choose_place{
+	width: 100%;
+	height: 217px;
+	background-color: #fff;
+	border-top: 1px solid #e6e6e6;
+}
+.storage_body_line{
+	height: 54px;
+	line-height: 54px;
+	font-size: 15px;
+	color: #595959;
+	border-bottom: 1px solid #e6e6e6;
+}
+.storage_body_line_title{
+	display: inline-block;
+	width: 80px;
+	text-indent: 16px;
+	margin-right: 50px;
+}
+.storage_body_line_info{
+	display: inline-block;
+	width: 50%;
+	color: #b3b3b3;
+}
+.storage_body_line_info_icon{
+	float: right;
+}
+.storage_body_line_bigtitle{
+	font-size: 14px;
+	color: #b3b3b3;
+	text-indent: 14px;
+	border:0px;
+}
+.dianhua>input{
+	position: relative;
+	margin-left: 0rem;
+	height: 52px;
+	width: 70%;
+	line-height: 52px;
+	border: 0;
+}
+.chanpingxinxi{
+	height: 109px;
+}
+.chanpingpinzheng{
+	height: 150px;
+	border-bottom: 1px solid #e6e6e6;
+}
+.storage_warm_body_right{
+	float: right;
+	position: relative;
+	right: 20px;
+}
+.storage_warm_body_right_body
+{
+	border:0px;
+}
+.storage_carmer_content{
+	text-align: center;
+	color:#b3b3b3;
+	font-size: 14px;
+	margin-top: 20px;
+}
+.storage_camera{
+	text-align: center;
+}
+.storage_camera img{
+	width: 75px;
+	height: 75px;
+}
+@media screen and (min-width:375px){
+	.storage_body_line_info_icon {
+	        float: right;
+	        position: relative;
+	        right: -40px;
+	}
+}

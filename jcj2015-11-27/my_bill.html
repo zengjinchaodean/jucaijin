@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1.0, user-scalable=0">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>我的账单</title>
+
+    <!-- Bootstrap -->
+    <link href="bootstrap-3.3.5-dist/css/bootstrap.css" rel="stylesheet">
+    <link href="bootstrap-3.3.5-dist/css/my_bill.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" href="css/normalize3.0.2.min.css" />
+      <link href="bootstrap-3.3.5-dist/css/common.css" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css?v=7" />
+<link href="css/mobiscroll.css" rel="stylesheet" />
+<link href="css/mobiscroll_date.css" rel="stylesheet" />
+ 
+  </head>
+  <body>
+  <form>
+      <input class=" my_bill_time"  id="USER_AGE" name="day" placeholder="" value="" />
+      <input type="submit" value="查询" class="check_button" />
+  </form>
+    <div class="container" style="margin-top:1rem;">
+      <div class="row">                 
+          
+          <div class="col-md-12 bill_info">
+                  <span class="bill_info_title">上期总资产</span>
+                  <span class="bill_info_price">3088.23元</span>
+          </div>
+          <div class="col-md-12 bill_info">
+                  <span class="bill_info_title">上期钱包余额</span>
+                  <span class="bill_info_price">0.58元</span>
+          </div>
+          <div class="col-md-12 bill_info">
+                  <span class="bill_info_title">上期利息</span>
+                  <span class="bill_info_price">3088.23元</span>
+          </div>
+          <div class="col-md-12 bill_info">
+                  <span class="bill_info_title">资金充值</span>
+                  <span class="bill_info_price">3088.23元</span>
+          </div>
+          <div class="col-md-12 bill_info">
+                  <span class="bill_info_title">资金提现</span>
+                  <span class="bill_info_price">0.23元</span>
+          </div>
+          
+          <div class="col-md-12 bill_info">  
+           <a href="index.html" class="my_bill_a">     
+                    <span class="bill_info_title">买入数量</span>
+                    <span class="bill_info_price">></span>
+            </a> 
+          </div>  
+                 
+          <div class="col-md-12 bill_info"> 
+          <a href="#" class="my_bill_a">       
+                    <span class="bill_info_title">卖出数量</span>
+                    <span class="bill_info_price">></span>
+          </a>
+          </div>  
+          <div class="col-md-12 bill_info"> 
+          <a href="#" class="my_bill_a">       
+                    <span class="bill_info_title">定投数量</span>
+                    <span class="bill_info_price">></span>
+          </a>
+          </div>  
+          <div class="col-md-12 bill_info"> 
+          <a href="#" class="my_bill_a">       
+                    <span class="bill_info_title">入库数量</span>
+                    <span class="bill_info_price">></span>
+          </a>
+          </div>  
+          <div class="col-md-12 bill_info">  
+          <a href="#" class="my_bill_a">      
+                    <span class="bill_info_title">提库数量</span>
+                    <span class="bill_info_price">></span>
+          </a>
+          </div>  
+      </div>
+      <div class="row" style="top:1rem;position:relative;">
+          <div class="col-md-12 bill_info">
+                  <span class="bill_info_title">持仓权益</span>
+                  <span class="bill_info_price">0.00</span>
+          </div>
+          <div class="col-md-12 bill_info">
+                  <span class="bill_info_title">持仓盈亏</span>
+                  <span class="bill_info_price">0.00</span>
+          </div>
+          <div class="col-md-12 bill_info">
+                  <span class="bill_info_title">平仓盈亏</span>
+                  <span class="bill_info_price">0.00</span>
+          </div>
+          <div class="col-md-12 bill_info">
+                  <span class="bill_info_title">手续费</span>
+                  <span class="bill_info_price">0.00</span>
+          </div>
+          <div class="col-md-12 bill_info">
+                  <span class="bill_info_title">商品加工费</span>
+                  <span class="bill_info_price">0.00</span>
+          </div>
+      </div>
+      <div class="row" style="top:2rem;position:relative;    margin-bottom: 6rem;">
+          <div class="col-md-12 bill_info">
+                  <span class="bill_info_title">本期钱包余额</span>
+                  <span class="bill_info_price">0.00</span>
+          </div>
+          <div class="col-md-12 bill_info">
+                  <span class="bill_info_title">本期总资产</span>
+                  <span class="bill_info_price">0.00</span>
+          </div>
+      </div>
+    </div>
+    <!--底部导航栏-->
+        <div class="container">
+            <ul class="nav navbar-nav navbar-fixed-bottom w bgf8 index-footer" style="margin:0;height:5rem;background-color:#fff;">
+                    <a href="index.html" style="padding:0;margin:0;"><li class="col-md-3" style="width: 25%;border-bottom:0px;"><img src="images/home_index.png" class="footer_images_1" onfocus="blur()"/><p>首页<p></li></a>
+                    <a href="information.html"  style="padding:0;margin:0;" onfocus="blur()"><li class="col-md-3" style="width: 25%;"><img src="images/info_index.png" class="footer_images_1" /><p>行情资讯</p></li></a>
+                   <a href="investment.html"  style="padding:0;margin:0;" onfocus="blur()"><li class="col-md-3" style="width: 25%;"><img src="images/invest_index.png" class="footer_images_1" /><p>我要投资</p></li></a>
+                    <a href="more.html"  style="padding:0;margin:0;" onfocus="blur()"><li class="col-md-3" style="width: 25%;"><img src="images/more_index.png" class="footer_images_1" /><p>更多</p></li></a>
+                    <!-- <li class="col-md-3" style="width: 25%;"><a href="construction.html"><img src="images/more3.png" class="footer_images_1"/><h4>更多</h4></a></li> -->
+                </ul>
+             </div>
+    <!--背景灰色图层-->
+    <div class="bgc"></div>
+    <!--日期插件-->
+    <div id="datePlugin"></div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
+    <script src="js-chajian/jquery.min.js"></script> 
+<script src="js-chajian/mobiscroll_date.js" charset="gb2312"></script> 
+<script src="js-chajian/mobiscroll.js"></script> 
+    <script type="text/javascript">
+
+    $(function(){
+      var date = new Date();
+
+      //获取年份
+      var year = date.getFullYear();
+
+      //获取当前月份
+      var mouth = date.getMonth() + 1;
+      //定义当月的天数；
+      var days  = date.getDate();
+
+      var all_time = year + "-" + mouth + "-" +days ;
+
+      $(".my_bill_time").attr('value',all_time);
+      $(".my_bill_time").attr('placeholder',all_time);
+
+      console.log(all_time);
+      var currYear = (new Date()).getFullYear();  
+      var opt={};
+      opt.date = {preset : 'date'};
+      opt.datetime = {preset : 'datetime'};
+      opt.time = {preset : 'time'};
+      opt.default = {
+        theme: 'android-ics light', //皮肤样式
+        display: 'modal', //显示方式 
+        mode: 'scroller', //日期选择模式
+        dateFormat: 'yy-mm-dd',
+        lang: 'zh',
+        showNow: true,
+        nowText: "今天",
+        startYear: currYear -1, //开始年份
+        endYear: currYear  //结束年份
+      };
+
+      $("#USER_AGE").mobiscroll($.extend(opt['date'], opt['default']));
+      /*动态复制获取现在的年月日*/  
+    });
+
+
+
+
+    </script>
+  </body>
+</html>
+
+

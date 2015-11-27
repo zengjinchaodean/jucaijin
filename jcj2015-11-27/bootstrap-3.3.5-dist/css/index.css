@@ -1,0 +1,449 @@
+body{
+	font-family: "Microsoft YaHei";
+	background-color: #e6e6e6;
+	padding-bottom: 4rem;
+	overflow-x: hidden; 
+}
+.carousel{
+	overflow-x: hidden; 
+}
+a{
+	color:#8c8c8c;
+}
+.carousel-inner img{
+	width: 100%;
+}
+.carousel-indicators{
+	bottom: -10px;
+}
+.carousel-indicators .active{
+	margin:0px 0rem 0rem 0.4rem;
+	width: 0.7rem;
+    height: 0.7rem;
+	background-color: #efa92b;
+	border:0px;
+}
+.carousel-indicators li{
+	margin:0px 0rem 0rem 0.4rem;
+	width: 0.7rem;
+    height: 0.7rem;
+    background-color: #fff;
+    border:0px;
+}
+.nav .col-md-4{
+	float: left;
+	width: 33%;
+	text-align: center;
+	font-size: 1rem;
+	color: #808080;
+}
+.container{
+	padding-right: 0px; 
+    padding-left: 0px;
+    overflow:hidden;
+}
+.index_nav{
+	overflow: hidden;
+    border-top: 1px solid #d9d9d9; 
+    border-bottom: 1px solid #d9d9d9; 	
+}
+.nav img{	
+	margin: 0rem auto 0.4rem;
+	width: 5rem;
+	display: block;
+} 
+.nav div{
+	height: 5rem;
+	background-color: #fff;
+}
+.nav a:active div{
+	background-color: #dfdddd;
+}
+.nav>a:nth-child(2)>div{
+	border-left: 1px solid #d9d9d9; 
+	border-right: 1px solid #d9d9d9;  
+}
+.function{
+	position: relative;
+	top: 1rem;
+	background-color: #fff;
+	height: 12rem;
+	color: #808080;
+}
+.function img{
+	width: 1.4rem;
+	position: relative;
+	top: -1px;
+}
+.function .col-md-12{
+	margin-left: 0.6rem;
+	font-size: 1rem;
+}
+.gold_price{
+	height: 2.4rem;
+	line-height: 2.4rem;
+}
+.asset{
+	height: 6.2rem;
+	width: 96%;
+	text-align: center;
+}
+.asset .col-md-6{
+	padding-bottom: 0.4rem;
+	padding-top: 0.6rem;
+	width: 49%;
+	float: left;
+	border-top:0.1rem dashed #ededed;
+	border-bottom: 0.1rem dashed #ededed;
+}
+.asset p{
+	margin:0;
+	color: #4c4c4c;
+	font-size: 2.6rem;
+}
+.asset_border{
+	border-left: 0.1rem dashed #ededed;
+    position: absolute;
+    height: 4rem;
+    left: 51%;
+    top: 20%;
+}
+.recharge{
+	position: relative;
+    margin: 0 auto;
+    margin-left: 2rem;
+    height: 3rem;
+    width: 75%;
+    line-height: 3rem;
+    text-align: center;
+    color: #fff;
+    font-size: 1.6rem;
+    background-color: #f35757;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    margin-right: 4px;
+}
+.cash{
+	position: relative;
+    margin: 0 auto;
+    margin-left: 1rem;
+    height: 3rem;
+    width: 75%;
+    line-height: 3rem;
+    text-align: center;
+    color: #fff;
+    font-size: 1.6rem;
+    background-color: #f2962a;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    margin-right: 4px;
+}
+.index_button .col-md-6{
+	width: 50%;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-top: 0.2rem;
+	float: left;
+}
+.popular_products{
+	position: relative;
+	top: 2rem;
+	height: 19rem;
+	background-color: #fff;
+}
+.popular_products_title{
+	height: 3.1rem;
+	font-size: 1.5rem;
+	color: #595959;
+	line-height: 3.1rem;
+}
+.popular_products_title_block{
+	display: inline-block;
+	height: 1.4rem;
+	width: 0.5rem;
+	background-color: #f06464;
+	position: relative;
+	top: 2px;
+	margin: 0 0.5rem 0 1.4rem;
+}
+.popular_products_info{
+	position: relative;
+	height: 8rem;
+	border-top:1px solid #e6e6e6;
+}
+.popular_products_info_circle{
+	position: relative;
+	top: 1.5rem;
+	left: 1.2rem;
+	height: 5rem;
+	width: 5rem;
+	-moz-border-radius: 2.5rem;
+	-webkit-border-radius: 2.5rem;
+	border-radius: 2.5rem;
+	box-shadow:  0px 0px 2rem -1rem #000;
+	-webkit-box-shadow:  0px 0px 2rem -1rem #000;
+}
+.popular_products_info_circle img{
+	position: relative;
+    width: 90%;
+    left: 5%;
+    top: 5%;
+}
+.popular_products_info_circle span{
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	font-size: 1rem;
+	left: 0rem;
+	top: 1.2rem;
+	color: #ea9e0e;
+	font-weight: bold;
+}
+.popular_products_info_circle b{
+	font-size: 1.6rem;
+}
+.popular_products_info_circle p{
+	position: absolute;
+	top: 3.2rem;
+	left: 2rem;
+	font-size: 0.05rem;
+	color: #fff;
+}
+.popular_products_info_flag{
+	position: absolute;
+	right: 2.6rem;
+	top: 0;
+	height: 3.2rem;
+	width: 3.2rem;
+	color: #fff
+}
+.popular_products_info_flag img{
+	width: 100%;
+}
+.popular_products_info_flag span{
+	position: absolute;
+    font-size: 1rem;
+    top: 0.2rem;
+    left: 0.6rem;
+    line-height: 1rem;
+}
+.popular_products_info_content{
+	position: absolute;
+	top: 2rem;
+	left: 10rem;
+}
+.popular_products_info_content span{
+	color: #595959;
+	font-size: 1.4rem;
+}
+.popular_products_info_content ul{
+	list-style-type: none;
+	padding-left: 0;
+	margin-top: 1rem;
+}
+.popular_products_info_content li{
+	float: left;
+	font-size: 1rem;
+	color: #8c8c8c;
+	margin-right: 0.5rem;
+}
+.popular_products_info_content li img{
+	position: relative;
+	top: -0.1rem;
+	width: 1rem;
+	margin-right: 0.2rem;
+}
+.commodity{
+	position: relative;
+	top: 3rem;
+	height: 20rem;
+	overflow: hidden;
+	background-color: #fff;
+}
+
+.gold{
+	height: 8rem;
+	overflow: hidden;
+	background-image: url("../../images/gold.png");
+	background-size: cover;
+}
+.silver{
+	height: 8rem;
+	top: 1rem;
+	overflow: hidden;
+	background-image: url("../../images/silver.png");
+	background-size: cover;
+}
+.gold h3{
+	color: #fff;
+	font-size: 2rem;
+	padding-left: 2rem;
+	padding-top: 1rem;
+	margin-top: 0px;
+	margin-bottom: 1rem;
+}
+.silver h3{
+	color: #929292;
+	font-size: 2rem;
+	padding-left: 2rem;
+	padding-top: 1rem;
+	margin-top: 0px;
+	margin-bottom: 1rem;
+}
+.gold p{
+	font-size: 1rem;
+	color:#ffecd6;
+	padding-left: 2rem;
+}
+.silver p{
+	font-size: 1rem;
+	color: #9e9d9c;
+	padding-left: 2rem;
+}
+.bgc{
+    position: absolute;
+    display: none;
+    top: 0;
+    width: 100%;
+/*  height: 100%;*/
+    font-weight: bold;
+    background-color: #000;
+    -webkit-opacity:0.2;
+    opacity:0.2;
+    z-index: 990;
+}
+.pop {
+    position: absolute;
+    display: none;
+    top: 30%;
+    width: 100%;
+    height: 100%;
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #3c3c3c;
+    -webkit-opacity: 1;
+    opacity: 1;
+    text-align: center;
+    z-index: 999;
+}
+.pop .dialog {
+    position: relative;
+    padding: 0;
+    width: 80%;
+    margin: 0 auto;
+    top: 30%;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    background-color: #fff;
+    -webkit-opacity: 1;
+    opacity: 1;
+}
+.click_sure{
+	display: inline-block;
+	padding-top: 1rem;
+	width: 49%;
+	padding-bottom: 1rem;
+	position: relative;
+	text-align: center;
+	color: #edc834;
+	font-size: 1.6rem;
+}
+.forget_sure{
+	display: inline-block;
+	padding-top: 1rem;
+	width: 49%;
+	padding-bottom: 1rem;
+	position: relative;
+	text-align: center;
+	color: #595959;
+	font-size: 1.6rem;
+	border-right: 1px solid #a2a2a2;
+}
+.border_dialog span{
+	color: #595959;
+}
+.border_dialog{
+	margin: 0;
+	padding: 1rem 3rem 1rem 1rem;
+	border-bottom: 1px solid #a2a2a2;
+}
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding:0;
+}
+.leave{
+	position: relative;
+	margin-bottom: 0.5rem;
+	top: 4rem;
+	height: 11rem;
+	overflow: hidden;
+	background-color: #fff;
+}
+.storage{
+	position: relative;
+	display: inline-block;
+	width: 48%;
+	top: 1rem;
+	left: 0.5rem;
+}
+.leave_border{
+	position: absolute;
+	background-color: #dad6d6;
+	width: 1px;
+	height: 6rem;
+	top: 16px;
+	left: 48%;
+}
+.storage img,.buy_back img{
+	width: 3rem;
+}
+.storage p,.buy_back p{
+	margin:0;
+}
+.storage_content{
+	display: inline-block;
+	position: relative;
+	left: 0.6rem;
+	top: 1rem;
+}
+.buy_back{
+	display: inline-block;
+	width: 48%;
+	position: relative;
+	top: 1rem;
+	left: 0.5rem;
+}
+.storage_content span{
+	font-size: 0.8rem;
+}
+.storage_content p{
+	color: #595959;
+	font-size: 1.6rem;
+}
+.popular_products_title_more{
+	display: inline-block;
+	float: right;
+	margin-right: 1rem;
+}
+.popular_products_title_more img{
+	margin-left: 0.5rem;
+	width: 1.5rem;
+}
+.popular_products_title_more a{
+	color: #909090;
+	font-size: 1rem;
+}
+.index_top_trade_state{
+        top: 0px;
+        width: 100%;
+        background-color: #fccc74;
+        color: #c18006;
+        font-size: 1rem;
+        height: 2rem;
+        line-height: 2rem;
+        text-align: center;
+        z-index: 500;
+}
