@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1.0, user-scalable=0">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>注册</title>
+
+    <!-- Bootstrap -->
+    <link href="bootstrap-3.3.5-dist/css/bootstrap.css" rel="stylesheet">
+    <link href="bootstrap-3.3.5-dist/css/registered.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 registered_nav">
+          <ul>
+            <li class="on">1输入手机号码</li><span>></span>
+            <li>2输入验证码</li><span>></span>
+            <li>3设置登陆密码</li>
+          </ul>
+        </div>
+        <div class="col-md-12 phone_number">
+            手机号码
+            <input type="number" placeholder="请输入手机号码" class="password1" oninput="button_change (event)"  id="mobile">
+        </div>
+        <button type="submit" disabled="disabled" class="sure">发送验证码</button>
+      </div>
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        $(function() {
+            $('button').attr("disabled", true); 
+            // var password1 = $('.password1').val();            
+        });
+        /*全部选项都填好了button才可以点击*/
+        function button_change (event) {
+            var password1 = $('.password1').val(); 
+            if(password1=="")
+            {
+              $('button').attr("disabled", "disabled");
+              $("button").css("background-color","#bfbfbf");
+            }else{
+              $('button').attr("disabled", false);
+              $("button").css("background-color","#f5a002");
+            }
+        }
+        //jquery验证手机号码 
+        function checkSubmitMobil() { 
+        if (!$("#mobile").val().match(/^(((13[0-9]{1})|159|153)+\d{8})$/)) { 
+          alert("手机号码格式不正确！"); 
+        } 
+        else{
+          location.href='index.html';
+        }
+        return true; 
+        } 
+    </script>
+  </body>
+</html>

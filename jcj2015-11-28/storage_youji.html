@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1.0, user-scalable=0">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>入库-邮寄</title>
+
+    <!-- Bootstrap -->
+    <link href="bootstrap-3.3.5-dist/css/bootstrap.css" rel="stylesheet">
+    <link href="bootstrap-3.3.5-dist/css/sold.css" rel="stylesheet">
+    <link href="bootstrap-3.3.5-dist/css/storage.css" rel="stylesheet">
+    <link href="bootstrap-3.3.5-dist/css/storage_warm.css" rel="stylesheet">
+    <link href="bootstrap-3.3.5-dist/css/common.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+  <div>
+
+    <!-- Nav tabs -->
+    <ul class="nav nav-tabs" role="tablist">
+      <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">黄金</a></li>
+      <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">白银</a></li>
+    </ul>
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+      <div role="tabpanel" class="tab-pane active" id="home">
+          <div class="container">
+            <div class="row storage_body">
+              <form>
+                  <div class="storage_choose_place mendian_body">
+                       <div class="storage_body_line">
+                         <span class="storage_body_line_title">存金方式</span>
+                         <span class="storage_body_line_info cunjinfangshi">邮寄
+                         </span>
+                         <span class="storage_body_line_info_icon">></span>
+                       </div>
+                       <div class="storage_body_line">
+                         <span class="storage_body_line_title">选择地区</span>
+                         <span class="storage_body_line_info diqu">请选择地区
+                         </span>
+                         <span class="storage_body_line_info_icon">></span>
+                       </div>
+                       <div class="storage_body_line">
+                         <span class="storage_body_line_title">选择门店</span>
+                         <span class="storage_body_line_info mendian">请选择门店
+                         </span>
+                         <span class="storage_body_line_info_icon">></span>
+                       </div>
+                       <div class="storage_body_line menddian_address">
+                         <span class="storage_body_line_title menddian_address_title">门店地址</span>
+                         <span class="storage_body_line_info menddian_address_content">
+                         广东省深圳市南山区科苑路198号研祥科技黄金珠宝公司
+                         <p class="menddian_address_man_info">王叉叉<span class="menddian_address_man_phone">13615898565</span></p>
+                         </span>
+                       </div>
+                       <div class="storage_body_line storage_body_line_bigtitle">
+                       个人信息
+                       </div>
+                    <div class="storage_choose_place">
+                       <div class="storage_body_line">
+                         <span class="storage_body_line_title">账户号码</span>
+                         <span class="storage_body_line_info zhanghuhaoma">158168178888
+
+                       </div>
+                       <div class="storage_body_line">
+                         <span class="storage_body_line_title">姓名</span>
+                         <span class="storage_body_line_info xingming">王**
+
+                       </div>
+                       <div class="storage_body_line">
+                         <span class="storage_body_line_title">身份证号</span>
+                         <span class="storage_body_line_info shenfenzhenghao">44030*****02254889
+
+                       </div>
+                       <div class="storage_body_line">
+                         <span class="storage_body_line_title">联系电话</span>
+                         <span class="storage_body_line_info dianhua">
+                         <input placeholder="请输入电话号码">
+
+                       </div>
+                    </div>
+                        <div class="storage_body_line storage_body_line_bigtitle">
+                        产品信息
+                        </div>
+                    <div class="storage_choose_place chanpingxinxi">
+                      <div class="storage_body_line">
+                        <span class="storage_body_line_title">黄金克重</span>
+                        <span class="storage_body_line_info huangjinkezhong">请选择克重
+                        </span>
+                        <span class="storage_body_line_info_icon">></span>
+                      </div>
+                      <div class="storage_body_line">
+                        <span class="storage_body_line_title">黄金来源</span>
+                        <span class="storage_body_line_info huangjinlaiyuan">请选择产品来源
+                        </span>
+                        <span class="storage_body_line_info_icon">></span>
+                      </div>
+                    </div>
+                        <div class="storage_body_line storage_body_line_bigtitle">
+                        产品及凭证照片
+                        </div>
+                    <div class="storage_choose_place chanpingpinzheng">
+                        <p class="storage_carmer_content">请将你的黄金产品 及其销售凭证合拍一张照片</p>
+                        <p class="storage_camera"><img src="images/storage_camera.png"></p>
+                    </div>
+                        <div class="storage_body_line storage_warm_body_right_body">
+                          <div class="storage_warm_body_right">
+                            <div onclick="warmming(event)">
+                            <span class="storage_content">入库说明</span>
+                            <img class="warmming" src="images/warmming.png" />
+                            </div>
+                          </div>
+                        </div>
+                       <div class="storage_body_line storage_warm_body_right_body">
+                       <button type="button"  class="sure">立即申请</button>
+                       </div>
+                  </div>
+                  
+              </form>
+
+            </div>
+          </div>
+      </div>
+      <div role="tabpanel" class="tab-pane" id="profile">
+         <div class="container">
+         <div class="row storage_body">
+         </div>
+         </div>
+      </div>
+    </div>
+  </div>
+
+
+      <!--背景灰色图层-->
+  <div class="bgc"></div>
+  <!--提示-->
+  <div class=" pop">
+          <div class="row" style="margin:0;">
+            <div class="col-md-12 dialog" style="opacity:1;">
+              <p style="position: relative;text-align: left;left: 16px;top: 10px;font-size:1.6rem;">提示</p>
+              <p class="border_dialog" style="border-bottom:1px solid #ededed;margin:0;font-weight: normal;">
+              <span>入库申请成功后，会有专门的客服电话和你联系，随后依据客服提供的地址寄出产品 ,请保持电话畅通。</span>       
+              </p>
+              <div class="click_sure2">
+              确  定
+              </div>
+            </div>
+            
+          </div>
+  </div>
+  <!--地区选择-->
+  <div class="container diqu_choose guanbi">
+    <div class="row" style="background-color: #fff;">
+      <div class="col-md-12" style="border-bottom: 1px solid #ededed;">
+        <div class="choose_bank_title">
+          <img src="images/close.png" class="cha_img">
+          <span class="choose_bank_title">选择地区</span>
+        </div>
+      </div>
+      <div class="col-md-12 diqu_list">
+          深圳
+      </div>
+      <div class="col-md-12 diqu_list">
+          山东
+      </div>
+      <div class="col-md-12 diqu_list">
+          河南
+      </div>
+      <div class="col-md-12 diqu_list">
+          河南
+      </div>
+      <div class="col-md-12 diqu_list">
+          河南
+      </div>
+      <div class="col-md-12 diqu_list">
+          河南
+      </div>
+      <div class="col-md-12 diqu_list">
+          河南
+      </div>
+      <div class="col-md-12 diqu_list">
+          河南
+      </div>
+      <div class="col-md-12 diqu_list">
+          河南
+      </div>
+
+    </div>
+  </div>
+  <!--地区结束-->
+  <!--店铺选择-->
+  <div class="container dian_choose guanbi">
+    <div class="row" style="background-color: #fff;">
+      <div class="col-md-12" style="border-bottom: 1px solid #ededed;">
+        <div class="choose_bank_title">
+          <img src="images/close.png" class="cha_img">
+          <span class="choose_bank_title">选择门店</span>
+        </div>
+      </div>
+      <div class="col-md-12 dian_list">
+          如意黄金南山店
+      </div>
+      <div class="col-md-12 dian_list">
+          周大福
+      </div>
+      <div class="col-md-12 dian_list">
+          周大福
+      </div>
+      <div class="col-md-12 dian_list">
+          周大福
+      </div>
+      <div class="col-md-12 dian_list">
+          周大福
+      </div>
+      <div class="col-md-12 dian_list">
+          周大福
+      </div>
+      <div class="col-md-12 dian_list">
+          周大福
+      </div>
+    </div>
+  </div>
+  <!--店铺选择结束-->
+  <!--来源选择-->
+  <div class="container laiyuan_choose guanbi">
+    <div class="row" style="background-color: #fff;">
+      <div class="col-md-12" style="border-bottom: 1px solid #ededed;">
+        <div class="choose_bank_title">
+          <img src="images/close.png" class="cha_img">
+          <span class="choose_bank_title">黄金来源</span>
+        </div>
+      </div>
+      <div class="col-md-12 laiyuan_list">
+          品牌金店
+      </div>
+      <div class="col-md-12 laiyuan_list">
+          银行
+      </div>
+      <div class="col-md-12 laiyuan_list">
+          亲友馈赠
+      </div>
+      <div class="col-md-12 laiyuan_list">
+          其他
+      </div>
+    </div>
+  </div>
+  <!--来源结束-->
+  <!--克重选择-->
+  <div class="container kezhong_choose guanbi">
+    <div class="row" style="background-color: #fff;">
+      <div class="col-md-12" style="border-bottom: 1px solid #ededed;">
+        <div class="choose_bank_title">
+          <img src="images/close.png" class="cha_img">
+          <span class="choose_bank_title">选择克重</span>
+        </div>
+      </div>
+      <div class="col-md-12 kezhong_list">
+          0-10克
+      </div>
+      <div class="col-md-12 kezhong_list">
+          10-50克
+      </div>
+      <div class="col-md-12 kezhong_list">
+          50-100克
+      </div>
+      <div class="col-md-12 kezhong_list">
+          100-300克
+      </div>
+      <div class="col-md-12 kezhong_list">
+          300-1000克
+      </div>
+      <div class="col-md-12 kezhong_list">
+          1000克以上
+      </div>
+    </div>
+  </div>
+  <!--克重结束-->
+  <!--存金方式选择-->
+  <div class="container cunjinfangshi_choose guanbi">
+    <div class="row" style="background-color: #fff;">
+      <div class="col-md-12" style="border-bottom: 1px solid #ededed;">
+        <div class="choose_bank_title">
+          <img src="images/close.png" class="cha_img">
+          <span class="choose_bank_title">存金方式</span>
+        </div>
+      </div>
+      <div class="col-md-12 cunjin_list">
+          门店
+      </div>
+      <div class="col-md-12 cunjin_list">
+          邮寄
+      </div>
+    </div>
+  </div>
+  <!--存金方式结束-->
+  <!--网点选择-->
+  <div class="container choose_card guanbi">
+    <div class="row" style="background-color: #fff;">
+      <div class="col-md-12" style="border-bottom: 1px solid #ededed;">
+        <div class="choose_bank_title">
+          <img src="images/close.png" class="cha_img">
+          <span class="choose_bank_title">请选择网点</span>
+        </div>
+      </div>
+      <div class="col-md-12 card_list">
+          深圳南山销售点
+      </div>
+      <div class="col-md-12 card_list">
+          深圳南山销售点
+      </div>
+      <div class="col-md-12 card_list">
+          深圳南山销售点
+      </div> 
+      <div class="col-md-12 card_list">
+          深圳南山销售点
+      </div>  
+    </div>
+  </div>
+  <!--网点选择结束-->
+      <!--背景灰色图层-->
+  <div class="bgc"></div>
+      <!--输入支付密码图层-->
+  <div class="pay_password">
+      <div class="container">
+          <div class="row">
+            <div class="col-md-12 pay_password_title">输入支付密码</div>
+            <div class="col-md-12">
+                <from>
+                  <div class="pay_password_input">
+                    <span>交易密码</span>
+                    <input class="password1" type="password" placeholder="请输入交易密码"  >
+                  </div>
+                  <div class="pay_password_buttun">
+                    <button type="button"  class="cancle_button" style="margin-right: 2rem;">取消</button>
+                    <button type="submit"  class="sure_button">确定</button>
+                  </div>
+                </from>
+            </div>  
+          </div>
+          <div class="forget_password">
+              <a href="find_trade_password.html" style="color: #f5a002;font-size:1rem;">忘记密码</a>
+          </div>
+      </div> 
+  </div>
+  <!--输入密码错误-->
+  <div class=" pop1">
+          <div class="row">
+            <div class="col-md-12 dialog1" style="opacity:1;">
+              <p>提示</p>
+              <p class="border_dialog1">密码错误你还可以输入<span>2</span>次</p>
+              <a href="#"><div class="forget_sure1">
+              忘记密码
+              </div></a>
+              <div class="click_sure1">
+              重新输入
+              </div>
+            </div>
+            
+          </div>
+  </div>    
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+    $(function() { 
+        // $('.sure').attr("disabled", true);
+        $(".sure").css("background-color","#f5a002");
+        $(".bgc").css("height",$(document).height());  
+        // var password1 = $('.password1').val();            
+    });
+
+    /*点击申请输入密码*/
+    $('.sure').click(function(){
+        $(".bgc").css("display","block");
+        $(".pay_password").css("display","block");
+    });
+    /*提示*/
+    function warmming(event){
+        $('.bgc').css("display","block");
+        $('.pop').css("display","block");
+    }
+    $('.click_sure').click(function(){
+        $(".bgc").css("display","none");
+        $(".pop").css("display","none");
+    });
+    /*选择网点*/
+    $(".choose_bank_title>img").click(function(){
+      $(".bgc").css("display","none");
+      $(".choose_card").css("display","none");
+    });
+    $(".choose_netplace").click(function(){
+      $(".bgc").css("display","block");
+      $(".choose_card").css("display","block");
+    });
+    /*网点信息赋值*/
+    $(".card_list").click(function(){
+     var bank_name = $(this).text();      
+     console.log(bank_name);
+      $(".net_work_content").text(bank_name);
+      $(".bgc").css("display","none");
+      $(".choose_card").css("display","none");
+    });
+    /*关闭支付框*/
+    $(".cancle_button").click(function(){
+        $(".bgc").css("display","none");
+        $(".pay_password").css("display","none");
+    });
+    /*点击显示输入密码*/
+    $(".sure").click(function(){
+        $(".bgc").css("display","block");
+        $(".pay_password").css("display","block");
+    });
+    /*点击重新输入密码*/
+    $(".click_sure").click(function(){
+        $(".bgc").css("display","none");
+        $(".pop").css("display","none");
+        $(".bgc").css("display","block");
+        $(".pay_password").css("display","block");
+    });
+    /*重新输入*/
+    $(".click_sure1").click(function(){
+        $(".pop1").css("display","none");
+        $(".pay_password").css("display","block");
+    });
+    /*隐藏提示框*/
+    $(".click_sure2").click(function(){
+        $(".pop").css("display","none");
+        $(".bgc").css("display","none");
+    });
+    /*关闭选择框*/
+    $('.cha_img').click(function(){
+        $('.cha_img')
+        .parent('.choose_bank_title')
+        .parent('.col-md-12')   
+        .parent('.row')            
+        .parent('.container').css("display","none");
+        $('.bgc').css("display","none");
+
+    });
+    /*门店存金选择信息赋值*/
+    $(".cunjin_list").click(function(){
+     var bank_name = $(this).text();      
+      $(".cunjinfangshi").text(bank_name);
+      $(".bgc").css("display","none");
+      $(".cunjinfangshi_choose").css("display","none");
+    });
+    /*点击弹出存金方式选择*/
+    $(".cunjinfangshi").click(function(){
+      $(".bgc").css("display","block");
+      $(".cunjinfangshi_choose").css("display","block");
+    });
+    /*地区选择信息赋值*/
+    $(".diqu_list").click(function(){
+     var bank_name = $(this).text();      
+      $(".diqu").text(bank_name);
+      $(".bgc").css("display","none");
+      $(".diqu_choose").css("display","none");
+    });
+    /*点击弹出地区选择*/
+    $(".diqu").click(function(){
+      $(".bgc").css("display","block");
+      $(".diqu_choose").css("display","block");
+    });
+    /*商店信息赋值*/
+    $(".dian_list").click(function(){
+     var bank_name = $(this).text();      
+      $(".mendian").text(bank_name);
+      $(".bgc").css("display","none");
+      $(".dian_choose").css("display","none");
+    });
+    /*点击弹出商店选择*/
+    $(".mendian").click(function(){
+      $(".bgc").css("display","block");
+      $(".dian_choose").css("display","block");
+    });
+    /*克重信息赋值*/
+    $(".kezhong_list").click(function(){
+     var bank_name = $(this).text();      
+      $(".huangjinkezhong").text(bank_name);
+      $(".bgc").css("display","none");
+      $(".kezhong_choose").css("display","none");
+    });
+    /*点击弹出克重选择*/
+    $(".huangjinkezhong").click(function(){
+      $(".bgc").css("display","block");
+      $(".kezhong_choose").css("display","block");
+    });
+    /*来源信息赋值*/
+    $(".laiyuan_list").click(function(){
+     var bank_name = $(this).text();      
+      $(".huangjinlaiyuan").text(bank_name);
+      $(".bgc").css("display","none");
+      $(".laiyuan_choose").css("display","none");
+    });
+    /*点击弹出来源选择*/
+    $(".huangjinlaiyuan").click(function(){
+      $(".bgc").css("display","block");
+      $(".laiyuan_choose").css("display","block");
+    });
+    </script>
+  </body>
+</html>
