@@ -1,0 +1,442 @@
+body{
+	font-family: "Microsoft YaHei";
+	background-color: #f3f3f3;
+	padding-bottom: 4rem;
+	overflow-x:hidden; 
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus{
+	color: #eb4848;
+	border:0;
+	border-bottom: 4px solid #eb4848;
+	font-size: 1.4rem;
+}
+.nav-tabs li{
+	width: 33.3%;
+	height: 100%;
+	text-align: center;
+}
+.nav-tabs{
+	background-color: #fff;
+}
+a{
+	padding:0;
+	font-size: 1.4rem;
+	white-space:nowrap;
+	color: #595959;
+}	
+.my_assets_tab{
+	height: 100%;
+	width: 100%;
+}
+.my_assets_circle{
+	position: relative;
+	margin-top: 1rem;
+	background-color: #fff;
+	height: 10rem;
+	width: 100%;
+	border-bottom: 1px solid #d9d9d9;
+	border-top: 1px solid #d9d9d9;
+}
+.my_assets_circle_money{
+	position: absolute;
+	width: 8rem;
+	margin-left: -4rem;
+    top: 44%;
+    left: 50%;
+    font-size: 0.8rem;
+    color: #808080;
+}
+.my_assets_circle_money p{
+	margin-bottom: 5px;
+	font-family: "Microsoft JhengHei";
+	font-size: 1.7rem;
+	font-weight: 700;
+	color: #595959;
+}
+.my_assets_circle_money span{
+	font-size: 1rem;
+}
+.my_assets_circle img{
+	margin-top: 1rem;
+	width: 11rem;
+}
+.my_total_assets_list{
+	position: relative;
+	margin-top: 1rem;
+	background-color: #fff;
+	border-bottom: 1px solid #d9d9d9;
+	border-top: 1px solid #d9d9d9;
+}
+.my_total_assets_list .col-md-12{
+	margin:0 auto;
+	padding:0 1rem 0 1rem;
+	width: 90%;
+	font-size: 12px;
+	line-height: 3rem;
+	border-bottom: 1px solid #d9d9d9;
+}
+.my_total_assets_list span{
+	float: right;
+	font-size: 12px;
+}
+.my_total_assets_list_flag{
+	float: right;
+	padding: 5px 20px 5px 0;
+	font-size: 1rem;
+	color: #c3c3c3;
+}
+.my_total_assets_list_flag img{
+	position: relative;
+	top: -2px;
+	width: 1rem;
+}
+.my_assets_circle_jinmi{
+	position: absolute;
+	width: 8rem;
+    margin-left: -4rem;
+    top: 44%;
+    left: 50%;
+    font-size: 1rem;
+    color: #808080;
+}
+.my_assets_circle_jinmi p{
+	margin-bottom: 5px;
+	font-family: "Microsoft JhengHei";
+	font-size: 1.7rem;
+	font-weight: 700;
+	color: #595959;
+}
+.ball_red_font{
+	font-family: "Microsoft JhengHei";
+	color: #000;
+	        font-size: 12px;
+}
+.ball_red{
+	margin-left: -1.6rem;
+	margin-right: 1rem;
+	display: inline-block;
+	width: 0.5rem;
+	height: 0.5rem;
+	background-color: #eb4848;
+	-moz-border-radius: 0.5rem;
+	-webkit-border-radius: 0.5rem;
+	border-radius: 0.5rem;
+}
+.ball_font{
+	font-family: "Microsoft JhengHei";
+	color: #000;
+	font-size: 12px;
+}
+.ball{
+	margin-left: -1.6rem;
+	margin-right: 1rem;
+	display: inline-block;
+	width: 0.5rem;
+	height: 0.5rem;
+	background-color: #a0a0a0;
+	-moz-border-radius: 0.5rem;
+	-webkit-border-radius: 0.5rem;
+	border-radius: 0.5rem;
+}
+.jinmi{
+	padding-bottom: 4rem;
+}
+.my_bill_a{
+	display: inline-block;
+	border-bottom: 0px;
+}
+.my_bill_b{
+	display: inline-block;
+	border-bottom: 0px;
+}
+.my_assets_list{
+	position: relative;
+	margin-top: 1rem;
+	height: 10rem;
+	width: 100%;
+	background-color: #fff;
+	border-top:1px solid #d9d9d9;
+    border-bottom:1px solid #d9d9d9;
+}
+.my_assets_list_title_ding{
+	height: 13rem;
+}
+.my_assets_list_title{
+	height: 4rem;
+	line-height: 5rem;
+	font-size: 1.4rem;
+	color: #1a1a1a;
+	border-bottom: 1px solid #e3e3e3;
+}
+.my_assets_list_price{
+	float: right;
+	font-size: 1rem;
+	color: #808080;
+}
+.my_assets_list_introduction{
+    width: 100%;
+    font-size: 1.6rem;
+}
+.my_assets_list_introduction th{
+	line-height: 1.4rem;
+	font-weight: normal;
+	color: #595959;
+	height: 2rem;
+	text-align: center;
+}
+.my_assets_list_introduction tr{
+	font-family: "Microsoft JhengHei";
+	line-height: 2.6rem;
+	color: #009acd;
+	vertical-align: top;
+	font-size: 1.4rem;
+}
+.my_assets_list_introduction td:nth-child(2){
+	text-align: center;
+}
+.my_assets_list_introduction th:nth-child(1){
+	float: left;
+}
+.my_assets_list_introduction th:nth-child(3){
+	float: right;
+}
+.my_assets_list_introduction td:nth-child(1){
+    float: left;
+
+}
+.my_assets_list_introduction td:nth-child(3){
+    float: right;
+}
+.down_nav{
+	padding: 0;
+	margin:0;
+	height: 100%;
+	        width: 100%;
+}
+.down_nav ul{
+	margin:0;
+	padding:0;
+	list-style: none;
+	overflow: hidden;
+}
+ .down_nav li{
+	float: left;
+	height: 3rem;
+	line-height: 3rem;
+	width: 25%;
+	text-align: center;
+	font-size: 1.5rem;
+	color:#fff;
+	background-color: #f4ac22;
+}
+ .down_nav_li{
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+}
+.fix{
+	margin-top: 1rem;
+}
+.my_assets_list_images{
+	display: none;
+	position: absolute;
+	margin-left: -5rem;
+    top: 20%;
+    left: 50%;
+}
+.my_assets_list_images img{
+	width: 10rem;
+}
+.my_assets_list_images p{
+	text-align: center;
+	color: #8c8c8c;
+}
+.left_day{
+	display: inline-block;
+	font-size: 1rem;
+	color: #fff;
+	background-color: #009acd;
+	position: relative;
+    height: 2rem;
+    line-height: 2rem;
+    float: right;
+    top: 1.5rem;
+    padding: 0 0.5rem;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+.trade_details{
+	position: absolute;
+	right: 1.2rem;
+	top: 1.4rem;
+	font-size: 1.2rem;
+	background-color: #e7e7e7;
+	-webkit-border-radius:2px;
+	border-radius:2px;
+	height: 2rem;
+	line-height: 2rem;
+	width: 5.5rem;
+	text-align: center;
+}
+.trade_details>a{
+	color: #6e6e6e;
+}
+.assets_alltitle{
+	position: relative;
+	top: 1.5rem;
+	margin-left: 2rem;
+	color: #8c8c8c;
+}
+.all_money{
+	color: #eb4848;
+	font-size: 32px;
+	position: relative;
+	top: 2.6rem;
+	margin-left: 2rem;
+}
+@media screen and (min-width:370px) and (max-width:670px){
+	.trade_details>a {
+	        color: #6e6e6e;
+	        font-size: 1rem;
+	}
+}
+.product_pickup_container{
+	padding: 0;
+}
+.product_pickup{
+	padding-right: 0;
+	margin-top: 0.6rem;
+	border-top: 1px solid #d9d9d9;
+	border-bottom: 1px solid #d9d9d9;
+}
+.product_pickup img{
+	float: left;
+	width: 8rem;
+	margin-left: 1rem;
+	border: 1px solid #ededed;
+}
+.product ul{
+    float: left;
+    margin-left: 1rem;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+}
+.product li{
+	list-style: none;
+    margin-bottom: 1.8rem;
+    font-size: 1rem;
+    color: #8c8c8c;
+}
+.product li:first-child{
+	list-style: none;
+    margin-bottom: 1.6rem;
+    font-size: 1.2rem;
+    color: #000;
+}
+.product .product_title {
+        position: relative;
+        padding: 1rem 0 0.5rem 0;
+        margin-left: 1rem;
+        margin-bottom: 0.5rem;
+        display: block;
+        width: 90%;
+        font-size: 1.4rem;
+        color: #595959;
+        border-bottom: 1px solid #e0e0e0;
+}
+.product {
+        position: relative;
+        height: 13.6rem;
+        overflow: hidden;
+        background-color: #fff;
+}
+.product_title_time{
+		color: #8c8c8c;
+		        font-size: 14px;
+}
+.product_pickup_state1{
+	color: #eb4848;
+}
+.product_title_time_ding{
+	font-size: 1rem;
+	color: #595959;
+	margin-left: 0.4rem;
+}
+.choose_address {
+        position: absolute;
+        width: 100%;
+        height: 3rem;
+        line-height: 2.8rem;
+        border-top: 1px solid #e3e3e3;
+        left: 0;
+        bottom: 0;
+        color: #8c8c8c;
+}
+.choose_address_function{
+	float: right;
+}
+.choose_address_del{
+	margin:0 15px 0 0;
+}
+
+.choose_address_images_title{
+	position: relative;
+	left: 2.6rem;
+}
+.my_chicang_table{
+	width: 100%;
+
+}
+.my_chicang_table td{
+	width: 25%;
+	text-align: center;
+	height: 2rem;
+}
+.my_chicang_table_span{
+	display: inline-block;
+	width: 100%;
+	color: #f4ac22;
+	height: 2rem;
+	line-height: 2rem;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	border-left: 1px solid #ededed;
+}
+.my_chicang_table tr td:nth-child(1) a .my_chicang_table_span{
+	border:0px;
+}
+.my_assets_jiaoge_title {
+        height: 4rem;
+        line-height: 5rem;
+        font-size: 1.4rem;
+        color: #1a1a1a;
+        border-bottom: 1px solid #e3e3e3;
+}
+.my_assets_jiaoge_title_time{
+	display: inline-block;
+	padding-right: 10px;
+	float: right;	
+	height: 4rem;
+	line-height: 4rem;
+	color: #8c8c8c;
+	font-size: 14px;
+}
+.my_assets_list_title_jiaoge {
+        height: 9.8rem;
+}
+.my_assets_jiaoge_content{
+	padding:0 15px 0 15px;
+	height: 6rem;
+}
+.my_assets_jiaoge_content_p{
+	height: 2.8rem;
+	line-height: 2.8rem;
+	margin-bottom: 0rem;
+	color: #595959;
+}
+.jiaoge_info{
+	color: #009acd;
+}
+.jiaoge_right{
+	float: right;
+}
